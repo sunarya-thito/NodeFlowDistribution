@@ -1,0 +1,15 @@
+<NodeFlow>
+    <components>
+        <BorderPane>javafx.scene.layout.BorderPane</BorderPane>
+        <FlowPane>javafx.scene.layout.FlowPane</FlowPane>
+        <StackPane>javafx.scene.layout.StackPane</StackPane>
+    </components>
+    <layout>
+        <StackPane class="dialog-border">
+            <BorderPane id="viewport" class="dialog" pick-on-bounds="false">
+                <BorderPane id="content" class="dialog-content" BorderPane.position="center"/>
+                <FlowPane id="buttons" class="dialog-buttons" BorderPane.position="bottom" BorderPane.margin="10 0 0 0"/>
+            </BorderPane>
+        </StackPane>
+    </layout>
+</NodeFlow>

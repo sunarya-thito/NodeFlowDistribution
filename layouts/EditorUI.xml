@@ -1,0 +1,49 @@
+<NodeFlow>
+    <components>
+        <BorderPane>javafx.scene.layout.BorderPane</BorderPane>
+        <Ribbon>com.pixelduke.control.Ribbon</Ribbon>
+        <RibbonGroup>com.pixelduke.control.ribbon.RibbonGroup</RibbonGroup>
+        <RibbonTab>com.pixelduke.control.ribbon.RibbonTab</RibbonTab>
+        <QuickAccessBar>com.pixelduke.control.ribbon.QuickAccessBar</QuickAccessBar>
+        <RibbonItem>com.pixelduke.control.ribbon.RibbonItem</RibbonItem>
+        <Tag>thito.nodeflow.library.ui.layout.tag.Tag</Tag>
+        <TextField>com.jfoenix.controls.JFXTextField</TextField>
+        <RibbonButton>thito.nodeflow.library.ui.RibbonButton</RibbonButton>
+        <FileExplorer>thito.nodeflow.library.ui.FileExplorer</FileExplorer>
+<!--        <SplitPane>javafx.scene.control.SplitPane</SplitPane>-->
+        <StackPane>javafx.scene.layout.StackPane</StackPane>
+        <BetterSplitPane>thito.nodeflow.library.ui.BetterSplitPane</BetterSplitPane>
+        <Docker>thito.nodeflow.library.ui.docker.Docker</Docker>
+        <Column>com.pixelduke.control.ribbon.Column</Column>
+        <CheckBox>com.jfoenix.controls.JFXCheckBox</CheckBox>
+        <JFXTabPane>com.jfoenix.controls.JFXTabPane</JFXTabPane>
+        <Tab>javafx.scene.control.Tab</Tab>
+    </components>
+    <layout>
+        <BorderPane class="project-editor">
+            <BetterSplitPane class="editor-viewport" BorderPane.position="center">
+                <JFXTabPane side="LEFT" class="left-panel" SplitPane.divider="0.3" SplitPane.resizeWithParent="false">
+                    <Tab text="Project Files">
+                        <FileExplorer id="explorer" class="file-viewer"/>
+                    </Tab>
+                    <Tab text="Components">
+
+                    </Tab>
+                </JFXTabPane>
+                <JFXTabPane side="TOP" class="viewport-panel" SplitPane.divider="0.7">
+                    <Tab text="Test.java" closeable="true">
+                        <StackPane/>
+                    </Tab>
+                </JFXTabPane>
+                <JFXTabPane side="RIGHT" class="editor-properties" SplitPane.resizeWithParent="false">
+                    <Tab text="Properties">
+
+                    </Tab>
+                    <Tab text="Documentation">
+
+                    </Tab>
+                </JFXTabPane>
+            </BetterSplitPane>
+        </BorderPane>
+    </layout>
+</NodeFlow>

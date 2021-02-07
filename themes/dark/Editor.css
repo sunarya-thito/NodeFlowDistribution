@@ -1,0 +1,136 @@
+.window-title {
+    -fx-text-fill: gray;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 13;
+    -fx-opacity: 1;
+}
+
+.window-title-bar {
+    -fx-padding: 5 20;
+    -fx-alignment: center;
+}
+
+.window-control {
+    -fx-spacing: 10;
+    -fx-padding: 0 15;
+}
+
+.window-button-icon {
+    -fx-radius: 8;
+}
+
+.window-button-viewport {
+    -fx-padding: 7 0;
+}
+
+#window-button-close {
+    base-button-color: #FF605C;
+    -fx-opacity: 0.9;
+    -fx-fill:
+        radial-gradient(center 50% 20%, radius 100%, derive(base-button-color, 0) 10%, base-button-color 30%, derive(base-button-color, 0.1) 90%);
+    //-fx-effect: innershadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0.2, 0, 3);
+}
+
+#window-button-close:hovered {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, base-button-color, 10, 0.2, 0, 0);
+}
+
+#window-button-maximize {
+    base-button-color: #00CA4E;
+    -fx-opacity: 0.9;
+    -fx-fill:
+            radial-gradient(center 50% 20%, radius 100%, derive(base-button-color, 0) 10%, base-button-color 30%, derive(base-button-color, 0.1) 90%);
+    //-fx-effect: innershadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0.2, 0, 2);
+}
+
+#window-button-maximize:hovered {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, base-button-color, 10, 0.2, 0, 0);
+}
+
+#window-button-minimize {
+    base-button-color: #FFBD44;
+    -fx-opacity: 0.9;
+    -fx-fill:
+           radial-gradient(center 50% 20%, radius 100%, derive(base-button-color, 0) 10%, base-button-color 30%, derive(base-button-color, 0.1) 90%);
+    //-fx-effect: innershadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0.2, 0, 2);
+}
+
+#window-button-minimize:hovered {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, base-button-color, 10, 0.2, 0, 0);
+}
+
+.project-editor {
+
+}
+
+.project-editor-ribbon {
+    -fx-min-height: 100;
+}
+
+.ribbon-button-icon {
+    -fx-max-height: 40;
+    -fx-max-width: 40;
+    -fx-min-height: 40;
+    -fx-min-width: 40;
+    -fx-fit-mode: scale-fit-min;
+}
+
+.ribbon-button {
+    -fx-background-radius: 5;
+}
+
+.ribbon-button-viewport {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+    -fx-padding: 10 2;
+}
+
+.split-pane {
+    -fx-padding: 0;
+}
+
+.file-viewer {
+    -fx-min-width: 200;
+}
+
+.file-viewer .tree-view, .file-viewer .tree-cell, .file-viewer {
+    -fx-background-color: color-editor-file-viewer;
+}
+
+.file-viewer .tree-cell {
+    -fx-text-fill: color-text;
+}
+
+.file-viewer .tree-cell:selected {
+    -fx-background-color: color-editor-file-viewer-selected;
+}
+
+.file-viewer .arrow {
+    -fx-background-color: color-text;
+}
+
+.editor-viewport {
+    -fx-background-color: color-editor;
+}
+
+.split-pane-divider {
+    -fx-padding: 3;
+    -fx-background-color: color-editor-file-viewer;
+}
+
+.tab-label {
+    -fx-font-family: "Roboto Condensed";
+    -fx-font-weight: normal;
+    -fx-font-size: 13;
+}
+
+.editor-properties {
+    -fx-background-color: color-editor-file-viewer;
+}
+
+.tab-header-background {
+    -fx-background-color: rgb(255, 255, 255, 0.2);
+}

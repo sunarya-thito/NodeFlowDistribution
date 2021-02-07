@@ -1,0 +1,297 @@
+.root {
+    color-text: white;
+    color-root-panel: rgb(0, 0, 0);
+    color-text-logo: derive(color-root-panel, 0.5);
+    color-preloader: rgb(34, 34, 44);
+    color-preloader-spinner: derive(color-preloader, 1.4);
+    color-preloader-label: derive(color-preloader, 1);
+    color-dialog: derive(color-root-panel, 0.4);
+    color-launcher-overlay: rgb(255, 0, 0, 0.1);
+    color-launcher-overlay-disable-text: rgb(255, 100, 100);
+    color-dialog-overlay: rgb(0, 0, 0, 0.15);
+    color-dialog-content-title: color-text;
+    color-dialog-content-message: color-text;
+    color-prompt-cell: derive(rgb(34, 34, 44), -0.2);
+    color-invalid-text: derive(red, 0.5);
+
+    color-editor: derive(color-root-panel, 0.3);
+    color-editor-divider: derive(color-root-panel, 0.2);
+    color-editor-file-viewer: derive(color-root-panel, 0.4);
+    color-editor-file-viewer-selected: derive(color-editor-file-viewer, 0.2);
+    color-editor-properties: derive(color-root-panel, 0.4);
+    color-editor-properties-tabs: derive(color-root-panel, 0.3);
+    color-editor-properties-tab: derive(color-root-panel, 0.35);
+}
+
+.notification {
+    -fx-background-color: rgb(34, 34, 44);
+    -fx-background-insets: 10 5;
+    -fx-background-radius: 5;
+    -fx-padding: 20;
+}
+
+.notification-container {
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, 0.5), 30, 0, 0, 5);
+    -fx-background-color: transparent;
+}
+
+.above-bar {
+    -fx-background-color: rgb(23, 30, 48);
+    -fx-padding: 0 15;
+    -fx-spacing: 0;
+}
+
+.above-bar .memory {
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto Condensed";
+}
+
+.above-bar-title {
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto Black";
+    -fx-font-size: 13;
+    -fx-padding: 0 15 0 25;
+}
+
+.menu-bar * {
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto Medium";
+}
+
+.context-menu * {
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto Medium";
+}
+
+.menu-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+
+.menu:showing {
+    -fx-background-color: #0060D3;
+}
+
+.menu:hover {
+    -fx-background-color: #0060D3;
+}
+
+.menu-button {
+    -fx-mark-color: white;
+}
+
+.menu .radio-button .radio {
+    -fx-background-color: transparent;
+}
+
+.separator {
+    -fx-padding: 2 0;
+}
+.separator .line {
+    -fx-box-border: rgb(255, 255, 255, 0.3);
+}
+
+.menu-item {
+    -fx-padding: 5 15;
+}
+
+.menu-item:focused {
+    -fx-background-color: #0060D3;
+}
+
+.context-menu {
+    -fx-background-color: derive(rgb(23, 30, 48, 0.8), -0.5);
+    -fx-background-insets: 0;
+    -fx-padding: 5 0;
+    -fx-min-width: 150;
+    -fx-translate-y: -1;
+    -fx-opacity: 0.7;
+    -fx-background-radius: 5;
+}
+
+.menu-bar .context-menu {
+    -fx-background-radius: 0 0 5 5;
+}
+
+.context-menu:hover {
+    -fx-opacity: 1;
+}
+
+.above-bar .menu-item .context-menu {
+    -fx-background-radius: 0 5 5 5;
+    -fx-background-insets: 0;
+    -fx-padding: 5 0;
+    -fx-translate-y: -5;
+}
+
+.above-bar-favicon {
+    -fx-fit-width: 20;
+    -fx-fit-height: 20;
+}
+
+.dialog {
+    -fx-background-color: color-dialog;
+    -fx-background-radius: 4;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, 0.4), 20, 0, 0, 0);
+    -fx-max-width: 450;
+}
+
+.dialog-border {
+    -fx-padding: 30;
+}
+
+.dialog-content {
+}
+
+.dialog-buttons {
+    -fx-vgap: 5;
+    -fx-hgap: 10;
+    -fx-alignment: center-right;
+}
+
+.dialog-content-message {
+    -fx-text-fill: color-dialog-content-message;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 12;
+}
+
+.dialog-content-title {
+    -fx-text-fill: color-dialog-content-title;
+    -fx-font-family: "Roboto Condensed";
+    -fx-font-size: 20;
+    -fx-padding: 0 0 2 0;
+}
+
+.dialog-button {
+    -fx-padding: 5 30 5 30;
+}
+
+.dialog-button, .dialog-checkbox {
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto";
+}
+
+.markdown-text {
+  -fx-font-size: 16;
+  -fx-fill: white;
+  -fx-font-family: "Roboto Condensed";
+}
+
+.markdown-normal-flow {
+  -fx-line-spacing: 5;
+}
+
+/*
+.markdown-heading-1 { -fx-padding: 5 0;}
+.markdown-heading-2 { -fx-padding: 4 0;}
+.markdown-heading-3 { -fx-padding: 3 0; }
+.markdown-heading-4 { -fx-padding: 2 0; }
+.markdown-heading-5 { -fx-padding: 1 0; }
+*/
+
+.notification .markdown-heading-1 .markdown-text, .notification .markdown-heading-2 .markdown-text, .notification .markdown-heading-3 .markdown-text,
+.notification .markdown-heading-4 .markdown-text, .notification .markdown-heading-5 .markdown-text {
+    -fx-font-size: 16;
+    -fx-fill: white;
+}
+
+.notification .markdown-text {
+    -fx-fill: derive(white, -0.2);
+    -fx-font-size: 15;
+}
+
+.markdown-heading-1 .markdown-text {
+  -fx-font-size: 36;
+}
+
+.markdown-heading-2 .markdown-text {
+  -fx-font-size: 32;
+}
+
+.markdown-heading-3 .markdown-text {
+  -fx-font-size: 28;
+}
+
+.markdown-heading-4 .markdown-text {
+  -fx-font-size: 24;
+}
+
+.markdown-heading-5 .markdown-text {
+  -fx-font-size: 20;
+}
+
+.markdown-link {
+  -fx-fill: blue;
+}
+
+.markdown-link-hover {
+  -fx-underline: true;
+}
+
+.markdown-paragraph-list {
+  -fx-spacing: 8;
+}
+.markdown-listitem-dot {
+  -fx-font-size: 16;
+  -fx-text-fill: -mdfx-font-color;
+}
+
+.markdown-codeblock-box,
+.markdown-code {
+  -fx-padding: 0 8 0 8;
+}
+.markdown-code,
+.markdown-codeblock {
+  -fx-wrap-text: true;
+  -fx-font-size: 16;
+}
+.markdown-codeblock-box,
+.markdown-code-background {
+  -fx-padding: 8;
+  -fx-border-radius: 8;
+  -fx-border-color: -mdfx-border-color-1;
+  -fx-border-width: 0.5;
+  -fx-background-radius: 8;
+  -fx-background-color: #00000009; /*  -mdfx-bg-color-3*/
+}
+.markdown-code-background {
+  -fx-border-width: 0;
+  -fx-background-color: #0000AA10;  /*  -mdfx-bg-color-3*/
+}
+
+.markdown-code-anti-padding {
+  -fx-border-color: red;
+  -fx-border-width: 1;
+}
+
+.markdown-table-table {
+  -fx-vgap: -1;
+  -fx-hgap: -1;
+}
+
+.markdown-table-cell {
+  -fx-padding: 8;
+  -fx-border-color: -mdfx-border-color-1;
+  -fx-border-width: 0;
+}
+
+.markdown-table-even {
+  -fx-background-color: -mdfx-bg-color-1;
+}
+.markdown-table-odd {
+  -fx-background-color: -mdfx-bg-color-2;
+}
+.markdown-table-cell-top {
+  -fx-background-color: -mdfx-bg-color-3;
+}
+.markdown-table-cell-top .markdown-normal-flow {
+  -fx-alignment: center;
+  -fx-text-alignment: center;
+}
+
+.markdown-hbox1 {
+  -fx-spacing: 0;
+  -fx-padding: 2;
+}
