@@ -1,3 +1,5 @@
 
+logs/
+dump.tmp
 config.yml
 update.json
