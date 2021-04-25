@@ -1,0 +1,13 @@
+<NodeFlow>
+    <components>
+        <VBox>javafx.scene.layout.VBox</VBox>
+        <Label>javafx.scene.control.Label</Label>
+        <BorderPane>javafx.scene.layout.BorderPane</BorderPane>
+    </components>
+    <layout>
+        <BorderPane class="formContentRoot">
+            <Label BorderPane.position="top" id="header" class="formHeader"/>
+            <VBox BorderPane.margin="15 0 20 0" BorderPane.position="center" id="formList" class="formList"/>
+        </BorderPane>
+    </layout>
+</NodeFlow>

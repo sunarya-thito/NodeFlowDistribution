@@ -8,11 +8,17 @@
 .window-title-bar {
     -fx-padding: 5 20;
     -fx-alignment: center;
+    -fx-background-color: rgb(240, 240, 240);
+}
+
+.window-bar:stage_focused .window-title {
+    -fx-text-fill: rgb(0, 0, 0, 0.7);
 }
 
 .window-control {
     -fx-spacing: 10;
     -fx-padding: 0 15;
+    -fx-background-color: rgb(240, 240, 240);
 }
 
 .window-button-icon {
@@ -62,8 +68,87 @@
     -fx-effect: dropshadow(gaussian, base-button-color, 10, 0.2, 0, 0);
 }
 
-.project-editor {
+.toolbar {
+    -fx-background-color: rgb(30, 30, 30);
+}
 
+.toolbar-box {
+    -fx-spacing: 2;
+    -fx-padding: 0 5;
+}
+
+.tool-choice {
+}
+
+.title-new-node {
+    -fx-text-fill: white;
+}
+
+.tool-choice .combo-box {
+}
+
+.tool-choice .combo-box {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(255, 255, 255, 0.2);
+    -fx-border-radius: 3;
+}
+
+.tool-choice .combo-box .cell {
+    -fx-graphic-text-gap: 10;
+    -fx-padding: 4 10;
+}
+
+.tool-choice .combo-box .combo-box-popup .cell {
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-padding: 5 10;
+}
+
+.tool-choice .combo-box .combo-box-popup .cell:hover {
+    -fx-background-color: rgb(70, 70, 70);
+}
+
+.tool-choice .combo-box > .cell {
+    -fx-background-color: transparent;
+}
+
+.tool-choice .combo-box .arrow {
+    -fx-background-color: white;
+}
+
+.tool-button:disabled {
+    -fx-opacity: 0.5;
+}
+
+.tool-button {
+    -fx-padding: 4;
+    -fx-background-radius: 2;
+}
+
+.toolbar-container {
+    -fx-padding: 4 0;
+}
+
+.tool-button:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+.tool-radio:selected, .tool-radio:selected:hover {
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+}
+
+.tool-separator {
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+
+.tool-separator-shape {
+    -fx-background-color: rgb(255, 255, 255, 0.3);
+    -fx-min-width: 1;
+    -fx-max-height: 17;
+    -fx-min-height: 17;
+}
+
+.project-editor {
 }
 
 .project-editor-ribbon {
@@ -90,6 +175,11 @@
 
 .split-pane {
     -fx-padding: 0;
+}
+
+.depth-container {
+    -fx-min-width: 30;
+    -fx-min-height: 30;
 }
 
 .file-viewer {
@@ -132,5 +222,9 @@
 }
 
 .tab-header-background {
-    -fx-background-color: rgb(255, 255, 255, 0.2);
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+.caret {
+    -fx-stroke: white;
 }

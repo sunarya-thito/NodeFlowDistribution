@@ -1,0 +1,5 @@
+id: org.spigotmc
+name: SpigotMC Bundle
+author: Septogeddon
+description: Contains Required APIs for SpigotMC Plugin Development
+version: 1.0

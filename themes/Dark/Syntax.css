@@ -1,0 +1,85 @@
+.code-area {
+    -fx-font-family: "Ubuntu";
+    -fx-text-fill: white;
+    -fx-fill: white;
+    -fx-font-size: 13;
+}
+
+.lineno {
+    -fx-background-insets: 0 5 0 0;
+    -fx-text-fill: rgb(255, 255, 255, 0.5);
+    -fx-font-family: "Ubuntu";
+    -fx-font-size: 11;
+    -fx-padding: 0 10 0 5;
+    -fx-alignment: center;
+}
+
+.highlighted-text, .plain-text {
+    -fx-fill: white;
+}
+
+.yaml-key {
+    -fx-font-weight: bold;
+    -fx-fill: #d1ff68;
+}
+
+.yaml-comma {
+    -fx-fill: grey;
+}
+
+.yaml-boolean {
+    -fx-fill: #22c749;
+}
+
+.yaml-dash {
+    -fx-fill: #949494;
+}
+
+.yaml-colon {
+    -fx-fill: #d1ff68;
+    -fx-opacity: .3;
+}
+
+.yaml-string {
+    -fx-fill: #52baff;
+}
+
+.yaml-number {
+    -fx-fill: #ff9151;
+}
+
+.yaml-bracket {
+    -fx-fill: #808080;
+}
+
+.yaml-comment {
+    -fx-fill: #a2a2a2;
+}
+
+.properties-key {
+    -fx-fill: teal;
+}
+
+.properties-equalSign {
+    -fx-fill: aqua;
+}
+
+.properties-value {
+    -fx-fill: yellow
+}
+
+.properties-comment {
+    -fx-fill: gray;
+}
+
+.xml-comment {
+    -fx-fill: gray;
+}
+
+.xml-tags {
+    -fx-fill: teal;
+}
+
+.root, .code {
+    -fx-background-color: rgb(34, 34, 44);
+}

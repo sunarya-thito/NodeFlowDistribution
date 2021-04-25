@@ -1,13 +1,11 @@
-[A-1.1]
-* Added theme API
-* Improved UX/UI
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 [A-1.0]
-* Recoded GUI
-* Added launcher
-[A-0.4]
-* Created APIs
-* Added Development Environment
-[A-0.1]
-* Created Project
+Welcome to NodeFlow!
+
+Hello, thanks for downloading NodeFlow! This software is currently in BETA, so if you found any bugs, please report
+it at https://github.com/sunarya-thito/NodeFlow-API/issues
+
+Change Logs:
+- UI/UX redesign
+- Added developer API
+- Removed old launcher
+- Added Resource Monitor

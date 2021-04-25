@@ -33,30 +33,6 @@
                 </HBox>
                 <ModernScrollPane clip-arc="10" VBox.vgrow="always" class="project-list" id="content">
                     <VBox class="project-prop-list" id="project-list">
-                        <JFXRippler selectable="selected" class="project-prop-rippler">
-                            <BorderPane class="project-prop">
-                                <Label BorderPane.position="left" class="project-prop-title">Project #1</Label>
-                                <Label BorderPane.margin="0 0 0 10" BorderPane.position="center" class="project-prop-location">C:/Projects/Project #1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Label>
-                            </BorderPane>
-                        </JFXRippler>
-                        <JFXRippler selectable="selected" class="project-prop-rippler">
-                            <BorderPane class="project-prop">
-                                <Label BorderPane.position="left" class="project-prop-title">Project #1</Label>
-                                <Label BorderPane.margin="0 0 0 10" BorderPane.position="center" class="project-prop-location">C:/Projects/Project #1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Label>
-                            </BorderPane>
-                        </JFXRippler>
-                        <JFXRippler selectable="selected" class="project-prop-rippler">
-                            <BorderPane class="project-prop">
-                                <Label BorderPane.position="left" class="project-prop-title">Project #1</Label>
-                                <Label BorderPane.margin="0 0 0 10" BorderPane.position="center" class="project-prop-location">C:/Projects/Project #1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Label>
-                            </BorderPane>
-                        </JFXRippler>
-                        <JFXRippler selectable="selected" class="project-prop-rippler">
-                            <BorderPane class="project-prop">
-                                <Label BorderPane.position="left" class="project-prop-title">Project #1</Label>
-                                <Label BorderPane.margin="0 0 0 10" BorderPane.position="center" class="project-prop-location">C:/Projects/Project #1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Label>
-                            </BorderPane>
-                        </JFXRippler>
                     </VBox>
                 </ModernScrollPane>
             </VBox>

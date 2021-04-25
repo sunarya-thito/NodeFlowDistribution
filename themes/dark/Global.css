@@ -5,7 +5,7 @@
     color-preloader: rgb(34, 34, 44);
     color-preloader-spinner: derive(color-preloader, 1.4);
     color-preloader-label: derive(color-preloader, 1);
-    color-dialog: derive(color-root-panel, 0.4);
+    color-dialog: rgb(48, 48, 48);
     color-launcher-overlay: rgb(255, 0, 0, 0.1);
     color-launcher-overlay-disable-text: rgb(255, 100, 100);
     color-dialog-overlay: rgb(0, 0, 0, 0.15);
@@ -14,13 +14,226 @@
     color-prompt-cell: derive(rgb(34, 34, 44), -0.2);
     color-invalid-text: derive(red, 0.5);
 
-    color-editor: derive(color-root-panel, 0.3);
-    color-editor-divider: derive(color-root-panel, 0.2);
-    color-editor-file-viewer: derive(color-root-panel, 0.4);
+    color-editor: rgb(20, 20, 20);
+    color-editor-divider: derive(color-editor, 0.2);
+    color-editor-file-viewer: derive(color-editor, 0.1);
     color-editor-file-viewer-selected: derive(color-editor-file-viewer, 0.2);
-    color-editor-properties: derive(color-root-panel, 0.4);
-    color-editor-properties-tabs: derive(color-root-panel, 0.3);
-    color-editor-properties-tab: derive(color-root-panel, 0.35);
+    color-editor-properties: derive(color-editor, 0.4);
+    color-editor-properties-tabs: derive(color-editor, 0.3);
+    color-editor-properties-tab: derive(color-editor, 0.35);
+}
+
+NodeCanvas .combo-box .list-cell {
+    -fx-background-color: transparent;
+}
+
+NodeCanvas .combo-box {
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+    -jfx-focus-color: transparent;
+    -jfx-unfocus-color: transparent;
+    -fx-min-height: 30;
+}
+
+NodeCanvas .combo-box .text-field {
+    -fx-background-color: transparent;
+}
+
+NodeCanvas .combo-box .combo-box-popup .list-cell {
+    -fx-background-radius: 0;
+}
+
+NodeCanvas .combo-box .cell {
+    -fx-text-fill: color-text;
+}
+
+NodeCanvas .combo-box .list-cell:filled {
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-background-radius: 5;
+}
+
+NodeCanvas .combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+NodeCanvas .combo-box .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+NodeCanvas .combo-box-popup .list-view {
+    -fx-background-color: transparent;
+}
+
+NodeCanvas .combo-box .list-cell:filled:hover {
+    -fx-background-color: rgb(55, 55, 55);
+}
+
+.combo-box {
+    -fx-max-width: Infinity;
+    -fx-text-inner-color: color-text;
+    -fx-prompt-text-fill: color-text;
+    -jfx-focus-color: derive(teal, 0.5);
+    -jfx-unfocus-color: rgb(255, 255, 255, .3);
+}
+
+.combo-box .cell {
+    -fx-text-fill: color-text;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: color-prompt-cell;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: transparent;
+}
+
+.combo-box .cell:hover {
+    -fx-background-color: derive(color-prompt-cell, 0.1);
+}
+
+.action-content-dialog {
+    -fx-fill-width: true;
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+.dialog .combo-box .list-cell {
+    -fx-background-color: transparent;
+}
+
+.dialog .combo-box {
+    -fx-background-color: rgb(0, 0, 0, 0.25);
+    -jfx-focus-color: transparent;
+    -jfx-unfocus-color: transparent;
+    -fx-min-height: 30;
+}
+
+.dialog .combo-box .combo-box-popup .list-cell {
+    -fx-background-radius: 0;
+}
+
+.dialog .combo-box .cell {
+    -fx-text-fill: color-text;
+}
+
+.dialog .combo-box .list-cell:filled {
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-background-radius: 5;
+}
+
+.dialog .combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.dialog .combo-box .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+.dialog .combo-box-popup .list-view {
+    -fx-background-color: transparent;
+}
+
+.dialog .combo-box .list-cell:filled:hover {
+    -fx-background-color: rgb(55, 55, 55);
+}
+
+.action-content-title {
+    -fx-font-family: "Roboto";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-max-width: Infinity;
+}
+
+.action-content-buttons {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+.action-dialog:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.08);
+}
+
+.action-dialog-rippler {
+    -jfx-rippler-pos: BACK;
+    -jfx-rippler-fill: white;
+}
+
+.action-dialog {
+    -fx-alignment: center;
+    -fx-padding: 50 15;
+}
+
+.action-dialog-image {
+    -fx-fit-width: 170;
+    -fx-preserve-ratio: true;
+}
+
+.formList {
+    -fx-spacing: 20px;
+}
+
+.formQuestion {
+    -fx-font-family: "Roboto";
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.formRoot {
+    -fx-spacing: 5px;
+    -fx-fill-width: true;
+}
+
+.formHeader {
+    -fx-font-family: "Roboto";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-max-width: Infinity;
+    -fx-alignment: center;
+}
+
+.formViewport * {
+    -fx-text-fill: white;
+    -fx-font-family: "Montserrat";
+}
+
+.formError {
+    -fx-text-fill: rgb(255, 100, 100);
+    -fx-wrap-text: true;
+    -fx-padding: 0 0 0 5;
+}
+
+.formViewport JFXComboBox {
+    -fx-max-width: Infinity;
+}
+
+.formViewport .jfx-chip-view {
+}
+
+.formViewport .chips-pane .close-button {
+}
+
+.formViewport JFXChipView * {
+    -fx-text-fill: rgb(0, 0, 0, 0.8);
+}
+
+.formViewport JFXChipView .text-area {
+    -fx-text-fill: white;
+}
+
+.formViewport JFXTextArea, .formViewport JFXTextField, .formViewport JFXChipView {
+    -fx-background-color: rgb(0, 0, 0, 0.25);
+    -fx-padding: 8 12;
+    -fx-background-radius: 3px;
+    -jfx-unfocus-color: transparent;
+    -jfx-focus-color: transparent;
+}
+
+.action-dialog-text {
+    -fx-font-family: "Roboto Condensed";
+    -fx-font-size: 17;
+    -fx-text-fill: white;
+    -fx-max-width: Infinity;
+    -fx-alignment: center;
 }
 
 .notification {
@@ -101,13 +314,17 @@
 }
 
 .context-menu {
-    -fx-background-color: derive(rgb(23, 30, 48, 0.8), -0.5);
+    -fx-background-color: derive(rgb(23, 30, 48, 0.95), -0.5);
     -fx-background-insets: 0;
     -fx-padding: 5 0;
     -fx-min-width: 150;
     -fx-translate-y: -1;
-    -fx-opacity: 0.7;
+    -fx-opacity: 0.9;
     -fx-background-radius: 5;
+}
+
+.menu-item .context-menu {
+    -fx-translate-y: -5;
 }
 
 .menu-bar .context-menu {
@@ -165,7 +382,7 @@
 }
 
 .dialog-button {
-    -fx-padding: 5 30 5 30;
+    -fx-padding: 7 30 7 30;
 }
 
 .dialog-button, .dialog-checkbox {
@@ -176,6 +393,7 @@
 .markdown-text {
   -fx-font-size: 16;
   -fx-fill: white;
+  -mdfx-font-color: white;
   -fx-font-family: "Roboto Condensed";
 }
 
@@ -295,3 +513,612 @@
   -fx-spacing: 0;
   -fx-padding: 2;
 }
+
+/*******************
+ * GENERAL STYLING *
+ *******************/
+
+.group-title {
+    -fx-font-size: 1.5em;
+    -fx-padding: 0 0 0.25em 0;
+}
+
+.group-title-setting-label, .group-title-setting-last-label {
+    -fx-padding: 0 0 0 1.5em;
+}
+
+.simple-control .text-field,
+.simple-control .text-area {
+    -fx-padding: 5px;
+}
+
+.simple-control .read-only-label {
+    -fx-padding: 0 6px;
+}
+
+/*********************
+ * TEXT AREA STYLING *
+ *********************/
+
+.simple-textarea {
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background, -20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    /*noinspection CssInvalidFunction*/
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+    linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em;
+}
+
+.simple-textarea:focused {
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    /*noinspection CssInvalidFunction*/
+    -fx-background-color: -fx-focus-color,
+    -fx-control-inner-background,
+    -fx-faint-focus-color,
+    linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+.simple-textarea .content {
+    -fx-padding: 0;
+    -fx-cursor: text;
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-radius: 0;
+}
+
+/********************
+ * LISTVIEW STYLING *
+ ********************/
+
+.simple-listview-control .list-view {
+    -fx-padding: 0 0 0 5px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 4px 0 0;
+    -fx-border-insets: 5px 5px 5px 0;
+}
+
+/***********************
+ * RADIOBUTTON STYLING *
+ ***********************/
+
+.simple-radio-control > VBox {
+    -fx-border-width: 0 4px 0 0;
+    -fx-border-insets: 5px 5px 5px 0;
+    -fx-border-color: transparent;
+}
+
+/*********************
+ * COMBOBOX STYLING *
+ *********************/
+
+.simple-select-control .read-only-label {
+    -fx-padding: 0 9px;
+}
+
+/*****************
+ * STATE STYLING *
+ *****************/
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-control:changed .text-field,
+.simple-control:changed .text-area,
+.simple-control:required .text-field,
+.simple-control:required .text-area,
+.simple-control:invalid .text-field,
+.simple-control:invalid .text-area,
+.simple-select-control:changed .arrow-button,
+.simple-select-control:required .arrow-button,
+.simple-select-control:invalid .arrow-button,
+.simple-listview-control:changed .list-view,
+.simple-listview-control:required .list-view,
+.simple-listview-control:invalid .list-view {
+    -fx-padding: 0 0 0 5px;
+    -fx-border-width: 0 4px 0 0;
+    -fx-border-insets: 5px 5px 5px 0;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-boolean-control:invalid > VBox,
+.simple-boolean-control:required > VBox,
+.simple-boolean-control:changed > VBox,
+.simple-checkbox-control:changed > VBox,
+.simple-checkbox-control:required > VBox,
+.simple-checkbox-control:invalid > VBox,
+.simple-radio-control:changed > VBox,
+.simple-radio-control:required > VBox,
+.simple-radio-control:invalid > VBox {
+    -fx-border-width: 0 4px 0 0;
+    -fx-border-insets: 0 5px 0 0;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-control:required .text-field,
+.simple-control:required .text-area,
+.simple-boolean-control:required > VBox,
+.simple-select-control:required .arrow-button,
+.simple-radio-control:required > VBox,
+.simple-checkbox-control:required > VBox,
+.simple-listview-control:required .list-view {
+    -fx-border-color: transparent #EBDE4C transparent transparent;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-control:changed .text-field,
+.simple-control:changed .text-area,
+.simple-boolean-control:changed > VBox,
+.simple-select-control:changed .arrow-button,
+.simple-radio-control:changed > VBox,
+.simple-checkbox-control:changed > VBox,
+.simple-listview-control:changed .list-view {
+    -fx-border-color: transparent #4cadeb transparent transparent;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-control:invalid .text-field,
+.simple-control:invalid .text-area,
+.simple-boolean-control:invalid > VBox,
+.simple-select-control:invalid .arrow-button,
+.simple-radio-control:invalid > VBox,
+.simple-checkbox-control:invalid > VBox,
+.simple-listview-control:invalid .list-view {
+    -fx-control-inner-background: #ffe5e5;
+    -fx-border-color: transparent #EB4C4C transparent transparent;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-select-control:invalid .combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, #ffe5e5;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.simple-checkbox-control:disabled > VBox,
+.simple-radio-control:disabled > VBox,
+.simple-boolean-control:disabled > VBox,
+.simple-listview-control:disabled .list-view {
+    -fx-border-color: transparent;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-select-control:changed .arrow,
+.simple-select-control:required .arrow,
+.simple-select-control:invalid .arrow {
+    -fx-pref-width: 15px;
+    -fx-border-insets: 0 5px 0 0;
+    -fx-background-insets: 0 5px 0 0;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-radio-control:invalid .radio-button > .radio,
+.simple-boolean-control:invalid .check-box > .box,
+.simple-checkbox-control:invalid .check-box > .box {
+    -fx-background-color: -fx-shadow-highlight-color,
+    -fx-outer-border,
+    -fx-inner-border,
+    #ffe5e5;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-radio-control:invalid .radio-button:hover > .radio,
+.simple-radio-control:invalid .radio-button:armed > .radio {
+    -fx-color: #ffcccc;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-radio-control:invalid .radio-button:focused > .radio,
+.simple-boolean-control:invalid .check-box:focused > .box,
+.simple-checkbox-control:invalid .check-box:focused > .box {
+    -fx-background-color: -fx-focus-color,
+    -fx-inner-border,
+    -fx-body-color,
+    -fx-faint-focus-color,
+    #ffe5e5;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.simple-boolean-control:invalid .check-box:hover > .box,
+.simple-boolean-control:invalid .check-box:armed > .box,
+.simple-checkbox-control:invalid .check-box:hover > .box,
+.simple-checkbox-control:invalid .check-box:armed > .box {
+    -fx-color: #ffcccc;
+}
+
+/*******************
+ * SPECIAL STYLING *
+ *******************/
+.simple-control-marked, .group-marked {
+    -fx-background-color: rgba(255, 255, 0, 0.2);
+    -fx-background-insets: -0.5em -999999em -0.5em -0.5em;
+}
+
+.new-node-root {
+    -fx-spacing: 5;
+    -fx-padding: 10 0;
+}
+
+.main-viewport {
+    -fx-background-color: transparent;
+    -fx-min-height: 400;
+    -fx-min-width: 600;
+}
+
+.main-viewport .split-pane-divider , .node-list-viewport .split-pane-divider {
+    -fx-background-color: transparent;
+}
+
+.left-new-node {
+    -fx-fill-width: true;
+    -fx-spacing: 5;
+}
+
+.bundle-search-container {
+    -fx-fill-height: true;
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+    -fx-padding: 2 5;
+}
+
+.bundle-search-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: Roboto;
+}
+
+.bundle-search-icon {
+    -fx-translate-y: 2;
+    -fx-translate-x: 2;
+    -fx-fit-width: 17;
+    -fx-fit-height: 18;
+    -fx-opacity: 0.5;
+}
+
+.node-list-viewport {
+    -fx-orientation: vertical;
+    -fx-background-color: transparent;
+}
+
+.node-list-container {
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+}
+
+.node-description-container {
+    -fx-padding: 5;
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+}
+
+#node-component-name {
+    -fx-text-fill: rgb(255, 255, 255, 0.6);
+    -fx-font-weight: bold;
+}
+
+.node-description {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.node-preview {
+    -fx-alignment: center;
+}
+
+#node-component-id {
+    -fx-text-fill: rgb(255, 255, 255, 0.3);
+}
+
+#node-category-alias {
+    -fx-text-fill: rgb(255, 255, 255, 0.6);
+    -fx-font-weight: bold;
+}
+
+#node-category-name {
+    -fx-text-fill: rgb(255, 255, 255, 0.3);
+}
+
+.node-component {
+    -fx-padding: 5 10;
+}
+
+.node-component-description {
+}
+
+.node-category {
+    -fx-padding: 5 10;
+}
+
+.special-list-container .scroll-bar:horizontal .increment-button {
+    visibility: hidden;
+    -fx-padding: 1 0;
+}
+
+.special-list-container .scroll-bar:horizontal .decrement-button {
+    visibility: hidden;
+    -fx-padding: 1 0;
+}
+
+.special-list-container .scroll-bar:vertical .increment-button {
+    visibility: hidden;
+    -fx-padding: 0 1;
+}
+
+.special-list-container .scroll-bar:vertical .decrement-button {
+    visibility: hidden;
+    -fx-padding: 0 1;
+}
+
+.special-list-container .scroll-bar .thumb {
+    -fx-background-color: rgb(255, 255, 255, 0.4);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.special-list-container .scroll-bar:vertical .increment-arrow {
+    -fx-padding: 0 3;
+}
+
+.special-list-container .scroll-bar:vertical .decrement-arrow {
+    -fx-padding: 0 3;
+}
+
+.special-list-container .scroll-bar:horizontal .increment-arrow {
+    -fx-padding: 3 0;
+}
+
+.special-list-container .scroll-bar:horizontal .decrement-arrow {
+    -fx-padding: 3 0;
+}
+
+.special-list-container .scroll-bar {
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+}
+
+.special-list-container .corner {
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+}
+
+.special-list-container .track {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.special-list-container .viewport {
+    -fx-padding: 0;
+}
+
+.special-list-container .list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.special-list-container .list-cell:selected {
+    -fx-background-color: rgb(0, 0, 0, 0.8);
+}
+
+.special-list-container .list-cell:odd:filled:selected {
+    -fx-background-color: rgb(0, 0, 0, 0.8);
+}
+
+.special-list-container .list-cell:odd:filled {
+    -fx-background-color: rgb(0, 0, 0, 0.2);
+}
+
+.special-list-container {
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+    -fx-padding: 0;
+}
+
+.title-new-node {
+    -fx-padding: 0 0 0 10;
+}
+
+.node-menu-list {
+    -fx-background-color: rgb(20, 20, 20);
+}
+
+.array-dimension {
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+    -fx-background-radius: 5;
+    -fx-padding: 7;
+}
+
+.array-dimension-text {
+    -fx-padding: 0 10;
+    -fx-text-fill: rgb(255, 255, 255, 0.7);
+}
+
+.array-dimension-spinner {
+    -fx-max-width: Infinity;
+}
+
+.array-dimension .spinner .text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.array-dimension .spinner {
+    -fx-background-color: rgb(0, 0, 0, 0.3);
+    -fx-text-fill: white;
+}
+
+.array-dimension .increment-arrow-button {
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+.array-dimension .decrement-arrow-button {
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+.array-dimension .increment-arrow-button:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.2);
+}
+
+.array-dimension .decrement-arrow-button:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.2);
+}
+
+.array-dimension .increment-arrow {
+    -fx-background-color: rgb(255, 255, 255, 0.2);
+}
+
+.array-dimension .decrement-arrow {
+    -fx-background-color: rgb(255, 255, 255, 0.2);
+}
+
+.category-list-panel {
+}
+
+.category-hint, .node-hint, .preview-hint {
+    -fx-text-fill: rgb(255, 255, 255, 0.3);
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-padding: 30;
+}
+
+.node-context-menu-root {
+    -fx-background-color: rgb(20, 20, 20);
+}
+
+.new-node-left-panel {
+    -fx-spacing: 5;
+}
+
+.char-select-root {
+    -fx-padding: 10 0 0 0;
+    -fx-spacing: 5;
+}
+
+.character-display {
+    -fx-font-size: 30;
+    -fx-text-fill: yellow;
+}
+
+.character {
+    -fx-padding: 3 10;
+}
+
+.character-name {
+    -fx-text-fill: rgb(255, 255, 255, 0.5);
+}
+
+.char-list .list-cell:selected > .text {
+    -fx-fill: white;
+}
+
+.overlay-text {
+    -fx-text-fill: white;
+}
+
+.overlay-spinner {
+    -fx-spinner-color: white;
+}
+
+.overlay-root {
+    -fx-alignment: center;
+}
+
+.overlay-box {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.tab-selected-line {
+    -fx-background-color: white;
+}
+
+.enum-list .cell {
+    -fx-padding: 5;
+    -fx-graphic-text-gap: 10;
+    -fx-absolute-height: 50;
+}
+
+.enum-list .cell BetterImageView {
+    -fx-absolute-width: 40;
+    -fx-absolute-height: 40;
+    -fx-fit-mode: scale_fit_min;
+}
+
+.enum-list .list-cell > .text {
+    -fx-fill: gray;
+}
+
+.enum-list .list-cell:selected > .text {
+    -fx-fill: white;
+}
+
+.image-view-tooltip {
+    -fx-padding: 15;
+    -fx-background-color: rgb(35, 35, 35);
+    -fx-background-radius: 5;
+    -fx-min-height: 150;
+    -fx-min-width: 150;
+}
+
+.enum-button {
+    -fx-border-color: rgb(255, 255, 255, 0.2);
+    -fx-border-radius: 3;
+    -fx-background-color: rgb(255, 255, 255, 0.05);
+    -fx-text-fill: white;
+    -fx-absolute-height: 40;
+    -fx-graphic-text-gap: 10;
+    -fx-min-width: 150;
+}
+
+.enum-button .image-view {
+    -fx-fit-height: 30;
+    -fx-preserve-ratio: true;
+}
+
+.enum-button:hover {
+    -fx-text-fill: aqua;
+    -fx-background-color: rgb(255, 255, 255, 0.3);
+}
+
+.character-button {
+    -fx-border-color: rgb(255, 255, 255, 0.2);
+    -fx-border-radius: 3;
+    -fx-background-color: rgb(255, 255, 255, 0.05);
+    -fx-text-fill: white;
+    -fx-absolute-height: 30;
+    -fx-graphic-text-gap: 10;
+    -fx-min-width: 50;
+}
+
+.character-button:hover {
+    -fx-text-fill: aqua;
+    -fx-background-color: rgb(255, 255, 255, 0.3);
+}
+
+NumberParameter .spinner {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(255, 255, 255, 0.2);
+    -fx-border-radius: 3;
+}
+
+NumberParameter .spinner .increment-arrow, NumberParameter .spinner .decrement-arrow {
+    -fx-background-color: white;
+}
+
+NumberParameter .spinner .increment-arrow-button, NumberParameter .spinner .decrement-arrow-button {
+    -fx-background-color: rgb(0, 0, 0, 0.4);
+}
+
+NumberParameter .spinner .increment-arrow-button:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+NumberParameter .spinner .decrement-arrow-button:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.1);
+}
+
+NumberParameter .text-field {
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: rgb(255, 255, 255, 0.2);
+    -fx-background-color: rgb(0, 0, 0, 0.25);
+    -fx-text-fill: white;
+}
+

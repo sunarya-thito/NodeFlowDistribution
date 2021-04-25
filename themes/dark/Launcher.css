@@ -351,22 +351,6 @@
 .file-settings-editor {
 }
 
-.jfx-combo-box {
-    -fx-max-width: Infinity;
-    -fx-text-inner-color: color-text;
-    -fx-prompt-text-fill: color-text;
-    -jfx-focus-color: derive(teal, 0.5);
-    -jfx-unfocus-color: rgb(255, 255, 255, .3);
-}
-
-.jfx-combo-box .cell {
-    -fx-text-fill: color-text;
-}
-
-.jfx-combo-box .list-cell {
-    -fx-background-color: color-prompt-cell;
-}
-
 .jfx-text-field {
     -jfx-focus-color: derive(teal, 0.5);
     -jfx-unfocus-color: rgb(255, 255, 255, .3);
@@ -544,6 +528,7 @@
     -fx-font-size: 14;
     -fx-padding: 10 0 0 0;
     -fx-wrap-text: true;
+    -fx-opacity: 0.7;
 }
 
 .props-viewport {
@@ -587,14 +572,6 @@
     -fx-opacity: 0.5;
 }
 
-#props-project {
-    visibility: true;
-}
-
-#props-overlay {
-    visibility: false;
-}
-
 .props-overlay {
     -fx-min-width: 260;
     -fx-alignment: center;
@@ -617,12 +594,9 @@
     -fx-padding: 10 20;
 }
 
-.props-button-viewport #open-button {
-    -fx-background-color: rgb(0,128,128, 0.5);
-}
 
 .props-button-viewport #open-button:hover {
-    -fx-background-color: rgb(0,140,140, 0.6);
+    -fx-background-color: rgb(0,123,123, 0.5);
 }
 
 .props-button-viewport #edit-button:hover {
@@ -654,7 +628,7 @@
     -jfx-rippler-pos: back;
 }
 
-.project-prop-rippler:selected .project-prop {
+.project-prop:selected {
     -fx-background-color: rgb(0, 0, 0, 0.5);
 }
 
