@@ -1,8 +1,16 @@
+[A-1.0.1]
+Hello! New update!
+Change Logs:
+- Fixed issue with Node Module type file name didn't show correctly
+- Fixed issue with Interface classes failed to load
+- Improved search feature
+- Fixed issue with Event nodes showing on Regular "Add New Node" dialog
+
 [A-1.0]
 Welcome to NodeFlow!
 
 Hello, thanks for downloading NodeFlow! This software is currently in BETA, so if you found any bugs, please report
-it at https://github.com/sunarya-thito/NodeFlow-API/issues
+it at https://github.com/sunarya-thito/NodeFlow/issues
 
 Change Logs:
 - UI/UX redesign
