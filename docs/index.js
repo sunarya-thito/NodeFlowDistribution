@@ -13,9 +13,6 @@ $(document).ready(() => {
     $('#online-guides-button').click(() => {
         openInNewTab('https://septogeddon.gitbook.io/nodeflow/');
     });
-    $('#download-button').click(() => {
-        download('https://github.com/sunarya-thito/NodeFlow/raw/master/NodeFlow.exe');
-    });
     $('#jre-button').click(() => {
         openInNewTab('https://www.java.com/en/download/manual.jsp');
     });
@@ -68,6 +65,9 @@ $(document).ready(() => {
 
 function checkOS() {
     if (jscd.os == 'Windows') {
+        $('#download-button').click(() => {
+            download('https://github.com/sunarya-thito/NodeFlow/raw/master/NodeFlow.exe');
+        });
         $('#download-button > .inner-button').html('Download for '+jscd.os + ' ' + jscd.osVersion);
         $('#download-button').removeClass('disabled-button');
     } else {
