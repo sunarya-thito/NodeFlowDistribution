@@ -23,6 +23,111 @@
     color-editor-properties-tab: derive(color-editor, 0.35);
 }
 
+.form-table-buttons {
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 0 2 2 2;
+    -fx-border-insets: -1;
+}
+
+.form-table-row-buttons {
+    -fx-background-insets: 1;
+    -fx-alignment: center;
+}
+
+.form-table-buttons:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.5);
+    -fx-background-insets: 3;
+}
+
+.form-table-row-buttons:hover {
+    -fx-background-color: rgb(255, 60, 60);
+}
+
+.form-table {
+    -fx-grid-lines-visible: true;
+}
+
+.form-table Line {
+    -fx-stroke: gray;
+    -fx-stroke-type: outside;
+}
+
+.form-table Label {
+    -fx-padding: 5 10;
+}
+
+.form-table JFXTextField {
+    -fx-control-inner-background: transparent;
+}
+
+.covered-overlay-root {
+    -fx-background-color: rgb(40, 40, 40);
+}
+
+.error-root {
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-padding: 20;
+}
+
+.error-title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.error-title, .error-message {
+    -fx-text-fill: white;
+    -fx-font-family: 'Roboto';
+}
+
+.error-message {
+    -fx-background-color: transparent;
+    -fx-pref-column-count: Infinity;
+    -fx-pref-row-count: Infinity;
+    -fx-wrap-text: false;
+}
+
+.error-message .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-hbar-policy:never;
+    -fx-vbar-policy:never;
+}
+.error-message .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+
+.error-message .content {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.error-icon {
+    -fx-fit-width: 60;
+    -fx-preserve-ratio: true;
+}
+
+.error-content {
+    -fx-padding: 0 0 0 15;
+    -fx-spacing: 2;
+}
+
+.error-buttons {
+    -fx-alignment: center_right;
+    -fx-hgap: 5;
+}
+
+.error-button {
+    -fx-background-color: white;
+    -fx-padding: 5 20;
+}
+
+.danger-button {
+    -fx-background-color: rgb(255, 100, 100);
+    -fx-text-fill: white;
+}
+
 NodeCanvas .combo-box .list-cell {
     -fx-background-color: transparent;
 }
@@ -168,10 +273,6 @@ NodeCanvas .combo-box .list-cell:filled:hover {
     -fx-preserve-ratio: true;
 }
 
-.formList {
-    -fx-spacing: 20px;
-}
-
 .formQuestion {
     -fx-font-family: "Roboto";
     -fx-text-fill: white;
@@ -188,7 +289,7 @@ NodeCanvas .combo-box .list-cell:filled:hover {
     -fx-font-size: 20;
     -fx-text-fill: white;
     -fx-max-width: Infinity;
-    -fx-alignment: center;
+    -fx-padding: 20 10 0 10;
 }
 
 .formViewport * {
@@ -353,6 +454,7 @@ NodeCanvas .combo-box .list-cell:filled:hover {
     -fx-padding: 10 20 10 20;
     -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, 0.4), 20, 0, 0, 0);
     -fx-max-width: 450;
+    -fx-max-height: Infinity;
 }
 
 .dialog-border {
@@ -360,6 +462,15 @@ NodeCanvas .combo-box .list-cell:filled:hover {
 }
 
 .dialog-content {
+}
+
+.form-scroller {
+    -fx-fit-width: true;
+}
+
+.formList {
+    -fx-spacing: 20px;
+    -fx-padding: 5 0 0 0;
 }
 
 .dialog-buttons {

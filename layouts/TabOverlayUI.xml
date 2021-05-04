@@ -9,7 +9,7 @@
         <FlowPane class="overlay-root">
             <VBox class="overlay-box">
                 <Spinner class="overlay-spinner"/>
-                <Label class="overlay-text">Loading</Label>
+                <Label class="overlay-text">${loading}</Label>
             </VBox>
         </FlowPane>
     </layout>

@@ -1,8 +1,6 @@
-{
-  ask-before-exit: false,
-  language: en,
-  theme: Dark,
-  show-intro: true,
-  workspace-directory: 'C:\NodeFlow Workspace',
-  bundles-directory: 'C:\Project Build\NodeFlow\bundles'
-}
+ask-before-exit: true
+language: en
+theme: Dark
+show-intro: true
+workspace-directory: C:\NodeFlow Workspace
+bundles-directory: C:\Project Build\NodeFlow\bundles
