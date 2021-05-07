@@ -1,5 +1,20 @@
+[A-1.0.2]
+New Patch!
+
+Change Logs:
+- Fixed issue with Event Nodes being shown on Regular Node list
+- Fixed issue with overflow Dialog layout
+- Node providers are now showing their node parameters on the description
+- Fixed cut, copy, and paste feature
+- Added cut, copy, and paste feature on right-click viewport
+- Improved Node Module Viewport behaviour (auto move when dragging objects outside of module viewport)
+- Fixed gold status on user input kind of parameter
+- Fixed varargs parameters
+- Will now allow user to install the program into specific directory
+
 [A-1.0.1]
 Hello! New update!
+
 Change Logs:
 - Fixed issue with Node Module type file name didn't show correctly
 - Fixed issue with Interface classes failed to load
