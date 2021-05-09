@@ -12,6 +12,7 @@
         <JFXTabPane>com.jfoenix.controls.JFXTabPane</JFXTabPane>
         <Tab>javafx.scene.control.Tab</Tab>
         <HBox>javafx.scene.layout.HBox</HBox>
+        <VBox>javafx.scene.layout.VBox</VBox>
     </components>
     <layout>
         <BorderPane class="project-editor">
@@ -22,7 +23,7 @@
                         <FileExplorer id="explorer" class="file-viewer"/>
                     </Tab>
                     <Tab text="Components">
-
+                        <VBox id="property_list" class="component-properties"></VBox>
                     </Tab>
                 </JFXTabPane>
                 <JFXTabPane id="center" side="TOP" class="viewport-panel" SplitPane.divider="0.7">

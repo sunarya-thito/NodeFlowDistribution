@@ -1,3 +1,15 @@
+[A-1.0.3]
+Small Patch!
+
+Change Logs:
+- Fixed issue with cut, copy, paste on context menu
+- Fixed error with paste feature
+- Fixed issue with snap to grid not really snapping objects into viewport grid
+- No longer showing Event Nodes that are coming from different facet other than the project current facet
+- Added component property
+- Added component search
+- Improved graphics performance
+
 [A-1.0.2]
 New Patch!
 
