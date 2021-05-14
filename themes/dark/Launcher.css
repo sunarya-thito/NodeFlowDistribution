@@ -535,6 +535,10 @@
     -fx-max-width: 260;
 }
 
+.thumbnail-container {
+    -fx-absolute-height: 180;
+}
+
 .props-viewport, .project-search, .project-list {
     -fx-background-color: rgb(34, 34, 44);
 }

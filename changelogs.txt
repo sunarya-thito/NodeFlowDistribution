@@ -9,6 +9,7 @@ Change Logs:
 - Added component property
 - Added component search
 - Improved graphics performance
+- Added thumbnail
 
 [A-1.0.2]
 New Patch!

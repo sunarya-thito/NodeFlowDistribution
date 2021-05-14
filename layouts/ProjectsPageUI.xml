@@ -12,6 +12,7 @@
         <BetterImageView>thito.nodeflow.library.ui.BetterImageView</BetterImageView>
         <ModernScrollPane>thito.nodeflow.library.ui.ModernScrollPane</ModernScrollPane>
         <JFXRippler>com.jfoenix.controls.JFXRippler</JFXRippler>
+        <ImageView>javafx.scene.image.ImageView</ImageView>
     </components>
     <layout>
         <HBox class="projects-page-root">
@@ -42,9 +43,11 @@
                     <Label class="props-project-overlay-text">Select a Project</Label>
                 </VBox>
                 <BorderPane id="props-project" class="props-project">
-                    <ImagePane BorderPane.position="top">
-                        project/default-thumbnail
-                    </ImagePane>
+                    <BorderPane class="thumbnail-container" BorderPane.position="top">
+                        <ImagePane class="props-thumbnail" id="props-thumbnail" BorderPane.position="center">
+                            project/default-thumbnail
+                        </ImagePane>
+                    </BorderPane>
                     <VBox class="props-project-details" BorderPane.position="center">
                         <Label id="props-author" class="props-project props-project-author">Septogeddon</Label>
                         <Label id="props-name" class="props-project props-project-name">Project #1</Label>
