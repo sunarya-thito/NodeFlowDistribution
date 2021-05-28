@@ -380,6 +380,7 @@ body {
     justify-content: center;
     padding: 10px 20px;
 }
+
 .outer-button {
     cursor: pointer;
     display: flex;
@@ -388,6 +389,7 @@ body {
     border-color: rgb(60, 60, 60);
     margin: 10px;
     transition: border-width 0.1s;
+    min-width: 150px;
 }
 
 .outer-button > div {

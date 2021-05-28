@@ -1,5 +1,5 @@
 .code-area {
-    -fx-font-family: "Ubuntu";
+    -fx-font-family: "monospace";
     -fx-text-fill: white;
     -fx-fill: white;
     -fx-font-size: 13;
@@ -8,10 +8,11 @@
 .lineno {
     -fx-background-insets: 0 5 0 0;
     -fx-text-fill: rgb(255, 255, 255, 0.5);
-    -fx-font-family: "Ubuntu";
+    -fx-font-family: "monospace";
     -fx-font-size: 11;
     -fx-padding: 0 10 0 5;
     -fx-alignment: center;
+    -fx-background-color: rgb(30, 30, 30);
 }
 
 .highlighted-text, .plain-text {
@@ -20,7 +21,7 @@
 
 .yaml-key {
     -fx-font-weight: bold;
-    -fx-fill: #d1ff68;
+    -fx-fill: limegreen;
 }
 
 .yaml-comma {
@@ -28,7 +29,8 @@
 }
 
 .yaml-boolean {
-    -fx-fill: #22c749;
+    -fx-fill: #74d5ed;
+    -fx-font-weight: bold;
 }
 
 .yaml-dash {
@@ -36,24 +38,24 @@
 }
 
 .yaml-colon {
-    -fx-fill: #d1ff68;
+    -fx-fill: gray;
     -fx-opacity: .3;
 }
 
 .yaml-string {
-    -fx-fill: #52baff;
+    -fx-fill: yellow;
 }
 
 .yaml-number {
-    -fx-fill: #ff9151;
+    -fx-fill: orange;
 }
 
 .yaml-bracket {
-    -fx-fill: #808080;
+    -fx-fill: rgb(80, 80, 80);
 }
 
 .yaml-comment {
-    -fx-fill: #a2a2a2;
+    -fx-fill: rgb(190, 190, 190);
 }
 
 .properties-key {

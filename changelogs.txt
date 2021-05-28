@@ -1,3 +1,24 @@
+[A-1.0.5]
+Huge update!
+
+Change Logs:
+- Added java documentation
+- Improved UI/UX
+- Added Record file type
+- Added Configuration file type
+- Fixed bugs with implementation node
+- Fixed node compiler bugs
+- Added cut, copy, paste, rename feature to the project explorer
+- Added file icons
+- Added yaml support
+- No longer showing error when there's a missing node provider. It will be replaced by "unknown" provider instead. Unknown provider is not compilable, so it will show error when you tried to export your project.
+- Added debug mark tool to mark specific nodes as "error"
+
+Spigot Facet Change Logs:
+- Added Timer (Sync and Async timer)
+- Added yaml path completer for Bukkit Configuration API
+- Added command parser
+
 [A-1.0.3]
 Small Patch!
 

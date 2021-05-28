@@ -23,6 +23,15 @@
     color-editor-properties-tab: derive(color-editor, 0.35);
 }
 
+.text-field-label {
+    -fx-background-color: rgb(220, 220, 220);
+    -fx-effect: innershadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0.1, 0, 2);
+    -fx-background-radius: 2;
+    -fx-max-height: Infinity;
+    -fx-max-width: Infinity;
+    -fx-padding: 5 10;
+}
+
 .form-table-buttons {
     -fx-alignment: center;
     -fx-padding: 10;
@@ -43,6 +52,60 @@
 
 .form-table-row-buttons:hover {
     -fx-background-color: rgb(255, 60, 60);
+}
+
+.text-dialog-content {
+    -fx-min-height: 300;
+    -fx-min-width: 300;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-background-color: transparent;
+    -fx-font-family: Roboto;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-text-box-border: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-dialog-content-message {
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-family: Roboto;
+    -fx-wrap-text: true;
+    -fx-max-width: 400;
+    -fx-padding: 5 0 10 0;
+}
+
+.mark-debug-text {
+    -fx-font-family: Monospace;
+}
+
+.text-dialog-content .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-dialog-content .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-dialog-content .scroll-pane .content {
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-background-radius: 4;
+}
+
+.text-dialog-content-title {
+    -fx-font-family: "Roboto";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 10 0 5 0;
+}
+
+.text-dialog-content-root {
+    -fx-min-height: 300;
+    -fx-min-width: 300;
+    -fx-background-color: transparent;
 }
 
 .form-table {
@@ -93,10 +156,10 @@
     -fx-hbar-policy:never;
     -fx-vbar-policy:never;
 }
+
 .error-message .scroll-pane .viewport {
     -fx-background-color: transparent;
 }
-
 
 .error-message .content {
     -fx-background-color: transparent;
@@ -303,8 +366,40 @@ NodeCanvas .combo-box .list-cell:filled:hover {
     -fx-padding: 0 0 0 5;
 }
 
-.formViewport JFXComboBox {
+.formViewport ComboBox {
     -fx-max-width: Infinity;
+}
+
+.formViewport .spinner {
+    -fx-background-color: transparent;
+    -fx-max-height: Infinity;
+    -fx-max-width: Infinity;
+    -fx-min-height: 30;
+}
+
+.formViewport .spinner .text-field {
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.formViewport .spinner .increment-arrow-button, .formViewport .spinner .decrement-arrow-button {
+    -fx-background-color: rgb(35, 35, 35);
+}
+
+.formViewport .spinner .increment-arrow-button:hover {
+    -fx-background-color: rgb(90, 90, 90);
+}
+
+.formViewport .spinner .decrement-arrow-button:hover {
+    -fx-background-color: rgb(90, 90, 90);
+}
+
+.formViewport .spinner .increment-arrow, .formViewport .spinner .decrement-arrow {
+    -fx-background-color: rgb(200, 200, 200);
+}
+
+.formViewport .combo-box .text-field {
+    -fx-background-color: transparent;
 }
 
 .formViewport .jfx-chip-view {
@@ -446,6 +541,41 @@ NodeCanvas .combo-box .list-cell:filled:hover {
 .above-bar-favicon {
     -fx-fit-width: 20;
     -fx-fit-height: 20;
+}
+
+.completer-context-menu {
+    -fx-opacity: 1;
+    -fx-background-color: white;
+    -fx-padding: 0;
+    -fx-min-width: 150;
+    -fx-translate-y: -1;
+    -fx-opacity: 0.9;
+    -fx-background-radius: 0;
+}
+
+.completer-suggestion-item {
+    -fx-background-color: white;
+    -fx-opacity: 1;
+}
+
+.completer-suggestion-item:focused {
+    -fx-background-color: #0060D3;
+}
+
+.completer-suggestion-item:focused .completer-normal-text {
+    -fx-fill: white;
+}
+
+.completer-suggestion-item:focused .completer-highlighted-text {
+    -fx-fill: aqua;
+}
+
+.completer-normal-text {
+    -fx-fill: black;
+}
+
+.completer-highlighted-text {
+    -fx-fill: blue;
 }
 
 .dialog {
@@ -910,12 +1040,36 @@ NodeCanvas .combo-box .list-cell:filled:hover {
 }
 
 .node-description {
-    -fx-padding: 20;
     -fx-alignment: center;
 }
 
 .node-preview {
     -fx-alignment: center;
+}
+
+.web-view .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.web-view .scroll-bar .thumb {
+    -fx-background-color: rgb(0, 0, 0, 0.5);
+    //-fx-background-radius: 5;
+}
+
+.web-view .scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.web-view .scroll-bar .corner {
+    -fx-background-color: transparent;
+}
+
+.web-view .scroll-bar:vertical .increment-arrow, .web-view .scroll-bar:vertical .decrement-arrow {
+    -fx-padding: 0 2.5;
+}
+
+.web-view .scroll-bar:horizontal .increment-arrow, .web-view .scroll-bar:horizontal .decrement-arrow {
+    -fx-padding: 2.5 0;
 }
 
 #node-component-id {

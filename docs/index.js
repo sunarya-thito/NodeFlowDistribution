@@ -11,7 +11,7 @@ $(document).ready(() => {
     let scrollable = new SimpleBar($('#container')[0]);
     let scrollElement = scrollable.getScrollElement();
     $('#online-guides-button').click(() => {
-        openInNewTab('https://septogeddon.gitbook.io/nodeflow/');
+        openInNewTab('https://github.com/sunarya-thito/NodeFlow/wiki');
     });
     $('#jre-button').click(() => {
         openInNewTab('https://www.java.com/en/download/manual.jsp');
