@@ -1,3 +1,13 @@
+[A-1.0.6]
+Yet another awesome update!
+
+Change logs:
+- Fixed issue with some nodes from java library failed to import
+- Added more Loop Nodes (Loop Times, Loop Collection, Loop Array)
+- Added generic type that changes type depending on the input/output
+- Improved node search lookup engine
+- Fixed javadocs UI window being forced to focus while moving/selecting nodes
+
 [A-1.0.5]
 Huge update!
 

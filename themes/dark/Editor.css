@@ -309,11 +309,11 @@ ConfigFileItemUI .config-file-item {
 
 .toolbar {
     -fx-background-color: rgb(30, 30, 30);
+    -fx-padding: 0 5;
 }
 
 .toolbar-box {
     -fx-spacing: 2;
-    -fx-padding: 0 5;
 }
 
 .tool-choice {
