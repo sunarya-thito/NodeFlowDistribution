@@ -379,6 +379,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
+    text-overflow: clip;
+    overflow: clip;
+    white-space: nowrap;
 }
 
 .outer-button {
@@ -390,6 +393,7 @@ body {
     margin: 10px;
     transition: border-width 0.1s;
     min-width: 150px;
+    overflow: clip;
 }
 
 .outer-button > div {

@@ -1,4 +1,5 @@
 
+const MEDIA = [{"type":"youtube", "media":"ckwZN9jMQ5k"}];
 document.addEventListener('contextmenu', event => event.preventDefault());
 function download(url) {
     document.getElementById('dummy').src = url;
@@ -61,12 +62,15 @@ $(document).ready(() => {
         $('#changelogs').html(marked(parseVersionHeader(text)));
     });
     checkOS();
+    MEDIA.forEach(m => {
+        loadMedia(m);
+    });
 });
 
 function checkOS() {
     if (jscd.os == 'Windows') {
         $('#download-button').click(() => {
-            download('https://github.com/sunarya-thito/NodeFlow/raw/master/NodeFlow.exe');
+            download('https://github.com/sunarya-thito/NodeFlow/raw/master/NodeFlow Setup.exe');
         });
         $('#download-button > .inner-button').html('Download for '+jscd.os + ' ' + jscd.osVersion);
         $('#download-button').removeClass('disabled-button');
@@ -74,6 +78,22 @@ function checkOS() {
         console.log('disabled');
         $('#download-button > .inner-button').html('Does not support '+jscd.os);
         $('#download-button').addClass('disabled-button');
+    }
+}
+
+function loadMedia(media) {
+    if (media.type == 'youtube') {
+        let element = document.createElement('div');
+        let frame = document.createElement('iframe');
+        frame.setAttribute('frameborder', '0');
+        frame.setAttribute('width', '800');
+        frame.setAttribute('height', '600');
+        frame.setAttribute('allow', 'encrypted-media; gyroscope; picture-in-picture');
+        frame.setAttribute('src', 'https://www.youtube.com/embed/'+media.media);
+        element.appendChild(frame);
+        document.getElementById('media-container').appendChild(element);
+    } else if (media.type == 'image') {
+
     }
 }
 

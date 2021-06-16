@@ -23,13 +23,51 @@
     color-editor-properties-tab: derive(color-editor, 0.35);
 }
 
+.argument-type-name {
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.argument-editor-box {
+    -fx-min-height: 15;
+    -fx-min-width: 50;
+    -fx-background-color: rgb(20, 20, 20, 0.6);
+    -fx-background-radius: 4;
+    -fx-padding: 2 10;
+    -fx-alignment: center;
+}
+
+.argument-editor-item {
+    -fx-text-fill: white;
+    -fx-padding: 5 5;
+    -fx-border-width: 1;
+    -fx-font-family: monospace;
+}
+
+.argument-container {
+    -fx-alignment: center_right;
+    -fx-spacing: 15;
+}
+
+
+.jfx-chip .label {
+    -fx-font-size: 12px;
+}
+
+.jfx-chip .close-button {
+    -fx-pref-height: 16;
+    -fx-pref-width: 16;
+}
+
 .text-field-label {
-    -fx-background-color: rgb(220, 220, 220);
-    -fx-effect: innershadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0.1, 0, 2);
+    -fx-text-fill: white;
+    -fx-background-color: rgb(20, 20, 20, 0.8);
     -fx-background-radius: 2;
     -fx-max-height: Infinity;
     -fx-max-width: Infinity;
     -fx-padding: 5 10;
+    -fx-border-width: 1;
+    -fx-border-color: rgb(240, 240, 240, 0.75);
+    -fx-border-radius: 2;
 }
 
 .form-table-buttons {
@@ -1175,6 +1213,16 @@ NodeCanvas .combo-box .list-cell:filled:hover {
 .special-list-container {
     -fx-background-color: rgb(0, 0, 0, 0.4);
     -fx-padding: 0;
+}
+
+.class-list .list-cell {
+    -fx-text-fill: rgb(200, 200, 200);
+    -fx-padding: 5 10;
+}
+
+.class-list .list-cell:selected {
+    -fx-text-fill: yellow;
+    -fx-padding: 5 10;
 }
 
 .title-new-node {

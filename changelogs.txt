@@ -1,3 +1,17 @@
+[A-1.0.7]
+Command update!
+
+Change Logs:
+- Fixed issue with If conditional nodes
+- Added Command Node to parse command
+- Facets can access class from bundle now
+- Fixed Method Node with VarArgs not being compiled and saved properly
+- Fixed Constructor Node with VarArgs not being compiled and saved properly
+- Added Bundled Class "Utility"
+- Added Build String Node from Utility
+- Added Sum Node from Utility
+- Added Sum Floor Node from Utility
+
 [A-1.0.6]
 Yet another awesome update!
 
