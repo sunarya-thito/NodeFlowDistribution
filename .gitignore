@@ -3,3 +3,5 @@ dump.tmp
 logs/
 config.yml
 user.yml
+*.log
+log4j.properties

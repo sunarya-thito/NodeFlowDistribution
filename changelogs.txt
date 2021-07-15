@@ -1,3 +1,14 @@
+[A-1.0.8]
+
+Change Logs:
+- Viewport zoom changed from 0.5 - 3 to 0.1 - 3
+- Number, Boolean, and Character is now assignable from String
+- Fixed boolean casting when using If Node
+- Toolbars will show only at specific screen depending on where the window located
+- Added Minecraft Chest GUI Support
+- Added Minecraft Chat Component Support
+- Better Node Module editor viewport UX (Improved dragging and panning the editor)
+
 [A-1.0.7]
 Command update!
 

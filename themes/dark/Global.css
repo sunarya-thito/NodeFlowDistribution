@@ -23,6 +23,84 @@
     color-editor-properties-tab: derive(color-editor, 0.35);
 }
 
+.component-dialog-content .color-picker .color-palette {
+    -fx-background-color: rgb(60, 60, 60);
+    -fx-background-radius: 3;
+}
+
+.component-dialog-content .color-picker Hyperlink {
+    -fx-text-fill: white;
+    -fx-underline: false;
+}
+
+.component-dialog-content .color-picker Label {
+    -fx-text-fill: white;
+}
+
+.component-dialog-content ChatComponentEditor {
+    -fx-effect: innershadow(gaussian, rgb(10, 10, 10, 0.7), 20, 0, 3, 3);
+}
+
+.component-field-label {
+    -fx-absolute-width: 200;
+}
+
+ChatComponentEditor .caret {
+    -fx-stroke: white;
+}
+
+.component-dialog-content .button {
+    -fx-background-color: rgb(30, 30, 30);
+}
+
+.component-dialog-content .button:hover {
+    -fx-background-color: rgb(70, 70, 70);
+}
+
+.component-dialog-content .button Text {
+    -fx-fill: white;
+}
+
+.component-dialog-content .button ObfuscatedText {
+    -fx-fill: white;
+}
+
+.component-dialog-content .separator .line {
+    -fx-border-color: rgb(70, 70, 70);
+    -fx-border-width: 0.6px;
+}
+
+.component-dialog-content .check-box .box {
+    -fx-background-color: rgb(30, 30, 30);
+}
+
+.component-dialog-content .check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.component-dialog-content .color-picker {
+    -fx-background-color: rgb(30, 30, 30);
+}
+
+.component-dialog-content .color-picker .arrow {
+    -fx-background-color: white;
+}
+
+.component-dialog-content .color-picker .picker-color-rect {
+    -fx-stroke-width: 0;
+}
+
+.component-dialog-content .color-picker .color-picker-label {
+    -fx-text-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: bold;
+}
+
+.component-dialog-content FlowPane {
+    -fx-padding: 5 5 15 5;
+}
+//
+
 .argument-type-name {
     -fx-text-fill: rgb(180, 180, 180);
 }
@@ -31,6 +109,9 @@
     -fx-min-height: 15;
     -fx-min-width: 50;
     -fx-background-color: rgb(20, 20, 20, 0.6);
+    -fx-border-width: 1;
+    -fx-border-color: rgb(255, 255, 255, 0.25);
+    -fx-border-radius: 3;
     -fx-background-radius: 4;
     -fx-padding: 2 10;
     -fx-alignment: center;
@@ -66,8 +147,19 @@
     -fx-max-width: Infinity;
     -fx-padding: 5 10;
     -fx-border-width: 1;
-    -fx-border-color: rgb(240, 240, 240, 0.75);
-    -fx-border-radius: 2;
+    -fx-border-color: rgb(255, 255, 255, 0.25);
+    -fx-border-radius: 3;
+}
+
+.component-field-label {
+    -fx-text-fill: white;
+    -fx-font-family: 'Minecraft';
+    -fx-max-height: Infinity;
+    -fx-max-width: Infinity;
+    -fx-padding: 5 10;
+    -fx-border-width: 1;
+    -fx-border-color: rgb(255, 255, 255, 0.25);
+    -fx-border-radius: 3;
 }
 
 .form-table-buttons {
