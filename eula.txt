@@ -1,3 +1,0 @@
-#NodeFlow EULA can be seen if this value is false or first time app launch
-#Sun Jun 20 09:13:32 ICT 2021
-accept-eula=true

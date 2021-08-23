@@ -1,7 +1,0 @@
-id: org.spigotmc
-name: SpigotMC Bundle
-author: Septogeddon
-description: Contains Required APIs for SpigotMC Plugin Development
-version: 1.0
-javadoc: https://hub.spigotmc.org/javadocs/bukkit/
-javadoc-version: 16
