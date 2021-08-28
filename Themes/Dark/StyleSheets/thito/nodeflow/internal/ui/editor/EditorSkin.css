@@ -23,6 +23,7 @@
     -fx-font-family: Roboto;
     -fx-font-size: 13;
     -fx-padding: 5 15;
+    -fx-max-width: 120;
 }
 
 #menu-bar .menu-button:hover, #menu-bar .menu-button:showing {
@@ -33,39 +34,6 @@
     -fx-text-fill: #C3CDDB;
     -fx-font-family: Roboto;
     -fx-font-size: 13;
-}
-
-.context-menu .menu-item {
-    -fx-background-color: transparent;
-    -fx-padding: 6 25;
-}
-
-.context-menu .menu-item:hover, #menu-bar .context-menu .menu:showing {
-    -fx-background-color: rgb(255, 255, 255, 0.1);
-}
-
-
-.context-menu .menu-item .label {
-    -fx-text-fill: #C3CDDB;
-}
-
-.context-menu .menu-item .arrow {
-    -fx-background-color: #C3CDDB;
-}
-
-.context-menu .separator {
-    -fx-padding: 0 10;
-}
-
-.context-menu .separator .line {
-    -fx-box-border: #718096;
-}
-
-.context-menu {
-    -fx-background-color: #313949;
-    -fx-background-radius: 5;
-    -fx-padding: 5 0;
-    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, 0.3), 15, 0, 0, 2);
 }
 
 #menu-bar .context-menu {

@@ -9,8 +9,16 @@
                 <Label id="description"/>
             </VBox>
             <HBox class="project-buttons">
-                <Button id="launch-button"/>
-                <Button id="options-button"/>
+                <Button id="launch-button" action="project.open"/>
+                <Button id="options-button">
+                    <ContextMenu>
+                        <Item>
+                            <Text></Text>
+                        </Item>
+                        <Item>Change Description</Item>
+                        <Item>Open Folder Location</Item>
+                    </ContextMenu>
+                </Button>
             </HBox>
         </HBox>
     </Layout>

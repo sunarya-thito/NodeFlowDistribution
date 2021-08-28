@@ -4,8 +4,8 @@
     </Components>
     <Layout>
         <VBox class="project-box-root">
-            <StackPane id="project-icon-area">
-                <ImagePane id="project-icon"></ImagePane>
+            <StackPane id="project-icon-area" action="project.open">
+                <ImagePane id="project-icon"/>
                 <BorderPane id="project-icon-overlay">
                     <Center>
                         <ImageView>rsrc:Themes/Dark/Icons/PlayButton.png</ImageView>
@@ -15,16 +15,16 @@
             <VBox class="project-box-content">
                 <BorderPane class="project-identity">
                     <Center>
-                        <Label BorderPane.alignment="CENTER_LEFT" id="project-name">Project Name</Label>
+                        <Label BorderPane.alignment="CENTER_LEFT" id="project-name"/>
                     </Center>
                     <Right>
                         <Button id="options"/>
                     </Right>
                 </BorderPane>
-                <FlowPane id="tags"></FlowPane>
-                <Label VBox.grow="ALWAYS" id="description">Sample description</Label>
+                <FlowPane id="tags"/>
+                <Label VBox.grow="ALWAYS" id="description"/>
                 <HBox class="project-box-footer">
-                    <Label id="size">60kB</Label>
+                    <Label id="size"/>
                 </HBox>
             </VBox>
         </VBox>

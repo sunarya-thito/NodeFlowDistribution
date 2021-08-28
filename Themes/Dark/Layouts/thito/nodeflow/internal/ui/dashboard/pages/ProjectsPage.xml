@@ -18,8 +18,8 @@
                     <PlainRadioButton class="view-toggle" id="box" ToggleButton.group="dashboard.projects-view" selected="true" action="dashboard.project-list.masonry-view"/>
                 </HBox>
                 <HBox class="workspace-identity" HBox.grow="ALWAYS">
-                    <Label id="workspace-name">My Workspace</Label>
-                    <Label id="workspace-count">(06)</Label>
+                    <Label id="workspace-name"></Label>
+                    <Label id="workspace-count"></Label>
                 </HBox>
                 <Button id="add-button"/>
             </HBox>

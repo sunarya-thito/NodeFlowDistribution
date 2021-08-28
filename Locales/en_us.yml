@@ -13,16 +13,29 @@ open-file: Select File
 ok: Ok
 cancel: Cancel
 apply: Apply
+file-size:
+  B: "%sB"
+  kB: "%skB"
+  mB: "%smB"
+  gB: "%sgB"
+time-since:
+  secondly: "%s SECS AGO"
+  minutely: "%s MINS AGO"
+  hourly: "%sH AGO"
+  yesterday: "YESTERDAY"
+  daily: "%sD AGO"
+  monthly: "%sM AGO"
 module:
   unknown:
     name: Unknown File
 settings:
   title: Settings
   general:
-    name: Appearance
+    name: General
     items:
       action-buffer: Action buffer
       max-opened-tabs: Max Opened Tabs
+      workspace-directory: Workspace Directory
     sub:
       appearance:
         name: Appearance
@@ -33,6 +46,7 @@ settings:
 editor:
   title: NodeFlow - %s
   title-no-project: NodeFlow
+  loading-file: Loading File
   navigation:
     project-files: Project
     module-structure: Structure
@@ -41,6 +55,12 @@ editor:
   edit: Edit
   view: View
   help: Help
+  copy-stacktrace: Copy Error Message
+  error:
+    open-file: UNABLE TO OPEN THE FILE
+    unknown-file: UNKNOWN FILE
+    unknown-file-info: |-
+      We do not know how to open this file type. Perhaps you forgot to install required plugins for this file type?
   menu-file:
     new: New
     import: Import

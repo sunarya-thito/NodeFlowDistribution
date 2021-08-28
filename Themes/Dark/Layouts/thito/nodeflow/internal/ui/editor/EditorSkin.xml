@@ -21,7 +21,7 @@
                         <BorderPane id="window-caption" >
                             <Left>
                                 <MenuBar id="menu-bar">
-                                    <Menu>
+                                    <Menu id="file-menu">
                                         <Text>${editor.file}</Text>
                                         <Items>
                                             <Menu>
@@ -91,13 +91,7 @@
                             </BorderPane>
                             <BorderPane>
                                 <Center>
-                                    <TabPane class="file-tabs" side="BOTTOM">
-                                        <Tab>
-                                            <Title>Test</Title>
-                                        </Tab>
-                                        <Tab>
-                                            <Title>Test2</Title>
-                                        </Tab>
+                                    <TabPane class="file-tabs" id="file-tabs" side="BOTTOM">
                                     </TabPane>
                                 </Center>
                             </BorderPane>
