@@ -1,8 +1,12 @@
 #breadcrumb-label {
-    -fx-content-display: right;
-    -fx-graphic: url("rsrc:Themes/Dark/Icons/BreadcrumbSeparator.png");
+	-fx-content-display: right;
+	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/BreadcrumbSeparator.png');
+	-fx-graphic-text-gap: 8;
+	-fx-text-fill: -nodeflow-color-palette-20;
+	-fx-font-family: Roboto;
+	-fx-padding: 2 4;
 }
 
-#breadcrumb-label:last .image-view {
-    -fx-opacity: 0;
+.image-view {
+	-fx-opacity: 0.4;
 }

@@ -1,19 +1,16 @@
 .change-log-scroller {
-    -fx-fit-width: true;
-    -fx-fill-width: true;
-    -fx-fill-height: true;
-}
-
-.change-log-root {
+	-fx-fit-width: true;
+	-fx-fill-width: true;
+	-fx-fill-height: true;
 }
 
 .change-log-header {
-    -fx-font-family: "Roboto Black";
-    -fx-font-size: 30;
-    -fx-text-fill: white;
-    -fx-padding: 20 30 0 30;
+	-fx-font-family: 'Roboto Black';
+	-fx-font-size: 30;
+	-fx-text-fill: -nodeflow-color-palette-3;
+	-fx-padding: 20 30 0 30;
 }
 
 #content {
-    -fx-padding: 0 0 40 0;
+	-fx-padding: 0 0 40 0;
 }

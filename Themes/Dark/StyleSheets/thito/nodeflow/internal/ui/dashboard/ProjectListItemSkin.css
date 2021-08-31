@@ -1,61 +1,61 @@
 .project-list-item-root {
-    -fx-background-color: #313949;
-    -fx-background-radius: 5;
-    -fx-padding: 10 20;
+	-fx-background-color: -nodeflow-color-palette-12;
+	-fx-background-radius: 5;
+	-fx-padding: 10 20;
 }
 
 .project-header {
-    -fx-spacing: 15;
+	-fx-spacing: 15;
 }
 
 .project-identity {
-    -fx-spacing: 5;
+	-fx-spacing: 5;
 }
 
 #name {
-    -fx-text-fill: white;
-    -fx-font-family: Roboto;
-    -fx-font-size: 18;
+	-fx-text-fill: -nodeflow-color-palette-3;
+	-fx-font-family: Roboto;
+	-fx-font-size: 18;
 }
 
 #description {
-    -fx-text-fill: rgb(255, 255, 255, 0.6);
-    -fx-font-family: Roboto;
-    -fx-font-size: 14;
+	-fx-text-fill: -nodeflow-color-palette-8;
+	-fx-font-family: Roboto;
+	-fx-font-size: 14;
 }
 
 #tags {
-    -fx-vgap: 3;
-    -fx-hgap: 3;
-    -fx-min-width: 0;
+	-fx-vgap: 3;
+	-fx-hgap: 3;
+	-fx-min-width: 0;
 }
 
 .project-buttons {
-    -fx-fill-height: true;
-    -fx-background-color: #434B5C;
-    -fx-background-radius: 5;
+	-fx-fill-height: true;
+	-fx-background-color: -nodeflow-color-palette-16;
+	-fx-background-radius: 5;
 }
 
 .project-buttons .button {
-    -fx-background-color: transparent;
-    -fx-max-height: Infinity;
-    -fx-padding: 5 15;
+	-fx-background-color: -nodeflow-color-palette-2;
+	-fx-max-height: Infinity;
+	-fx-padding: 5 15;
 }
 
 .project-buttons .button:hover {
-    -fx-background-color: rgb(255, 255, 255, 0.3);
+	-fx-background-color: -nodeflow-color-palette-4;
 }
 
 #launch-button {
-    -fx-graphic: url("rsrc:Themes/Dark/Icons/PlayButton2.png");
-    -fx-background-radius: 5 0 0 5;
+	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/PlayButton2.png');
+	-fx-background-radius: 5 0 0 5;
 }
 
 #launch-button:hover {
-    -fx-background-color: rgb(100, 200, 100);
+	-fx-background-color: -nodeflow-color-palette-17;
 }
 
 #options-button {
-    -fx-graphic: url("rsrc:Themes/Dark/Icons/SettingsButton.png");
-    -fx-background-radius: 0 5 5 0;
+	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/SettingsButton.png');
+	-fx-background-radius: 0 5 5 0;
 }
