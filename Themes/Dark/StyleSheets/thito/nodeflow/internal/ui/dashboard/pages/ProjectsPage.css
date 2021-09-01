@@ -1,95 +1,96 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 .search-bar {
-	-fx-background-color: -nodeflow-color-palette-12;
-	-fx-background-radius: 5;
-	-fx-alignment: center;
-	-fx-padding: 0 15 0 15;
-	-fx-spacing: 5;
-	-fx-min-height: 30;
+  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-radius:5;
+  -fx-alignment:center;
+  -fx-padding:0 15 0 15;
+  -fx-spacing:5;
+  -fx-min-height:30;
 }
 
 .search-icon {
-	-fx-image: url('rsrc:\/Themes\/Dark\/Icons\/Search.png');
-	-fx-opacity: 0.5;
+  -fx-image:url('rsrc:/Themes/Dark/Icons/Search.png');
+  -fx-opacity:0.5;
 }
 
 .search-field {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-family: Roboto;
-	-fx-font-size: 15;
-	-fx-focus-traversable: false;
+  -fx-background-color:transparent;
+  -fx-text-fill:white;
+  -fx-font-family:Roboto;
+  -fx-font-size:15;
+  -fx-focus-traversable:false;
 }
 
-.search-field:empty {
-	-fx-alignment: center;
-}
+.search-field:empty { -fx-alignment:center; }
+
+.search-field:focused { -fx-alignment:center_left; }
 
 .projects-root {
-	-fx-padding: 30 30 0 30;
-	-fx-spacing: 20;
+  -fx-padding:30 30 0 30;
+  -fx-spacing:20;
 }
 
 .tool-bar {
-	-fx-alignment: center;
-	-fx-fill-height: true;
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-padding: 0;
-	-fx-pref-height: 30;
+  -fx-alignment:center;
+  -fx-fill-height:true;
+  -fx-background-color:transparent;
+  -fx-padding:0;
+  -fx-pref-height:30;
 }
 
 .workspace-identity {
-	-fx-alignment: center_left;
-	-fx-fill-height: true;
-	-fx-padding: 0 10 0 10;
-	-fx-spacing: 5;
+  -fx-alignment:center_left;
+  -fx-fill-height:true;
+  -fx-padding:0 10 0 10;
+  -fx-spacing:5;
 }
 
 #workspace-name {
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-size: 17;
-	-fx-font-family: Roboto;
+  -fx-text-fill:white;
+  -fx-font-size:17;
+  -fx-font-family:Roboto;
 }
 
 #workspace-count {
-	-fx-text-fill: -nodeflow-color-palette-18;
-	-fx-font-size: 17;
-	-fx-font-family: Roboto;
+  -fx-text-fill:-nodeflow-color-palette-5;
+  -fx-font-size:17;
+  -fx-font-family:Roboto;
 }
 
 .view-buttons {
-	-fx-background-color: -nodeflow-color-palette-12;
-	-fx-background-radius: 5;
-	-fx-alignment: center;
-	-fx-fill-height: true;
+  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-radius:5;
+  -fx-alignment:center;
+  -fx-fill-height:true;
 }
 
 .view-toggle {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-pref-width: 30;
-	-fx-pref-height: 30;
+  -fx-background-color:transparent;
+  -fx-pref-width:30;
+  -fx-pref-height:30;
+}
+
+.view-toggle:selected {
+  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-background-radius:5;
+  -fx-max-height:Infinity;
 }
 
 #add-button {
-	-fx-pref-width: 30;
-	-fx-pref-height: 30;
-	-fx-min-width: 30;
-	-fx-min-height: 30;
-	-fx-background-color: -nodeflow-color-palette-19;
-	-fx-graphic: url('rsrc:\/Themes\/Dark\/Icons\/AddButton.png');
+  -fx-pref-width:30;
+  -fx-pref-height:30;
+  -fx-min-width:30;
+  -fx-min-height:30;
+  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-graphic:url('rsrc:/Themes/Dark/Icons/AddButton.png');
 }
 
-#add-button:hover {
-	-fx-graphic: url('rsrc:\/Themes\/Dark\/Icons\/AddButtonHovered.png');
-}
+#add-button:hover { -fx-graphic:url('rsrc:/Themes/Dark/Icons/AddButtonHovered.png'); }
 
-#list {
-	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/List.png');
-}
+#list { -fx-graphic:url('rsrc:Themes/Dark/Icons/List.png'); }
 
-#box {
-	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/Box.png');
-}
+#box { -fx-graphic:url('rsrc:Themes/Dark/Icons/Box.png'); }
 
-#content {
-	-fx-padding: 0 0 20 0;
-}
+#content { -fx-padding:0 0 20 0; }

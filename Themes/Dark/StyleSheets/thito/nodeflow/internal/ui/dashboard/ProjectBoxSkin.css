@@ -1,74 +1,71 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 .project-box-root {
-	-fx-background-color: -nodeflow-color-palette-12;
-	-fx-background-radius: 5;
-	-fx-padding: 10;
-	-fx-pref-width: 160;
-	-fx-fill-width: true;
+  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-radius:5;
+  -fx-padding:10;
+  -fx-pref-width:160;
+  -fx-fill-width:true;
 }
 
 #tags {
-	-fx-vgap: 3;
-	-fx-hgap: 3;
-	-fx-padding: 0 0 5 0;
+  -fx-vgap:3;
+  -fx-hgap:3;
+  -fx-padding:0 0 5 0;
 }
 
-#project-icon {
-	-fx-width-mode: fit;
-}
+#project-icon { -fx-width-mode:fit; }
 
 #project-icon-overlay {
-	-fx-opacity: 0;
-	-fx-background-color: -nodeflow-color-palette-15;
-	-fx-background-radius: 5;
+  -fx-opacity:0;
+  -fx-background-color:-nodeflow-color-palette-16;
+  -fx-background-radius:5;
 }
 
-#project-icon-area:hover #project-icon-overlay {
-	-fx-opacity: 1;
-}
+#project-icon-area:hover #project-icon-overlay { -fx-opacity:1; }
 
 .project-box-footer {
-	-fx-alignment: center_right;
-	-fx-padding: 20 0 0 0;
+  -fx-alignment:center_right;
+  -fx-padding:20 0 0 0;
 }
 
 .project-box-content {
-	-fx-padding: 5 5 0 5;
-	-fx-fill-width: true;
-	-fx-spacing: 5;
+  -fx-padding:5 5 0 5;
+  -fx-fill-width:true;
+  -fx-spacing:5;
 }
 
 .project-identity {
-	-fx-alignment: center_left;
-	-fx-padding: 5 0 0 0;
+  -fx-alignment:center_left;
+  -fx-padding:5 0 0 0;
 }
 
 #project-name {
-	-fx-font-family: Roboto;
-	-fx-font-size: 18;
-	-fx-text-fill: -nodeflow-color-palette-3;
+  -fx-font-family:Roboto;
+  -fx-font-size:18;
+  -fx-text-fill:white;
 }
 
 #description {
-	-fx-font-family: Roboto;
-	-fx-text-fill: -nodeflow-color-palette-8;
-	-fx-font-size: 14;
+  -fx-font-family:Roboto;
+  -fx-text-fill:-nodeflow-color-palette-6;
+  -fx-font-size:14;
 }
 
 #size {
-	-fx-font-family: Roboto;
-	-fx-text-fill: -nodeflow-color-palette-4;
-	-fx-font-size: 13;
+  -fx-font-family:Roboto;
+  -fx-text-fill:-nodeflow-color-palette-2;
+  -fx-font-size:13;
 }
 
 #options {
-	-fx-graphic: url('rsrc:Themes\/Dark\/Icons\/OptionsButton.png');
-	-fx-opacity: 0.5;
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-max-width: 4;
-	-fx-min-width: 4;
-	-fx-pref-width: 4;
+  -fx-graphic:url('rsrc:Themes/Dark/Icons/OptionsButton.png');
+  -fx-opacity:0.5;
+  -fx-background-color:transparent;
+  -fx-max-width:4;
+  -fx-min-width:4;
+  -fx-pref-width:4;
 }
 
-#options:hover {
-	-fx-opacity: 1;
-}
+#options:hover { -fx-opacity:1; }

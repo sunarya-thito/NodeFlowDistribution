@@ -1,11 +1,14 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
+.search-popup-scroller {}
+
 .search-popup-root {
-	-fx-opacity: 0.9;
-	-fx-background-color: -nodeflow-color-palette-0;
-	-fx-background-radius: 5;
-	-fx-max-height: 600;
-	-fx-effect: dropshadow(gaussian, rgb(0, 0, 0, 0.5), 10, 0, 0, 2);
+  -fx-opacity:0.9;
+  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-radius:5;
+  -fx-max-height:600;
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-7,10,0,0,2);
 }
 
-.search-popup-root:hover {
-	-fx-opacity: 0.99;
-}
+.search-popup-root:hover { -fx-opacity:0.99; }

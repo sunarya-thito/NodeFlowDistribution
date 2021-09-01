@@ -1,14 +1,17 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 #tag {
-	-fx-font-family: Roboto;
-	-fx-font-size: 13;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-background-radius: 5;
-	-fx-padding: 4 8;
-	-fx-graphic-text-gap: 4;
+  -fx-font-family:Roboto;
+  -fx-font-size:13;
+  -fx-text-fill:white;
+  -fx-background-color:transparent;
+  -fx-background-radius:5;
+  -fx-padding:4 8;
+  -fx-graphic-text-gap:4;
 }
 
 #tag .image-view {
-	-fx-fit-height: 16;
-	-fx-preserve-ratio: true;
+  -fx-fit-height:16;
+  -fx-preserve-ratio:true;
 }

@@ -1,15 +1,18 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 #file-explorer {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-padding: 0;
+  -fx-background-color:transparent;
+  -fx-padding:0;
 }
 
 #file-explorer .cell {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-family: Roboto;
-	-fx-font-size: 13;
+  -fx-background-color:transparent;
+  -fx-text-fill:white;
+  -fx-font-family:Roboto;
+  -fx-font-size:13;
 }
 
-#file-explorer .cell .arrow {
-	-fx-background-color: -nodeflow-color-palette-14;
-}
+#file-explorer .cell .arrow { -fx-background-color:-nodeflow-color-palette-18; }
+
+#file-explorer .cell:selected { -fx-background-color:-nodeflow-color-palette-15; }

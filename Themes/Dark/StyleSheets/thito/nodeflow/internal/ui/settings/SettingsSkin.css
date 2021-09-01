@@ -1,108 +1,113 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 .settings-root {
-	-fx-background-color: -nodeflow-color-palette-0;
-	-fx-padding: 5 15 15 15;
+  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-padding:5 15 15 15;
 }
 
 .settings-buttons {
-	-fx-alignment: center_right;
-	-fx-padding: 10;
-	-fx-background-color: -nodeflow-color-palette-1;
-	-fx-background-radius: 10;
-	-fx-spacing: 7;
+  -fx-alignment:center_right;
+  -fx-padding:10;
+  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-radius:10;
+  -fx-spacing:7;
 }
 
 .settings-buttons .button {
-	-fx-padding: 6 0;
-	-fx-pref-width: 80;
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-background-radius: 4;
-	-fx-background-insets: 0;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-size: 13;
-	-fx-font-family: Roboto;
-	-fx-border-width: 1.5;
-	-fx-border-color: -nodeflow-color-palette-4;
-	-fx-border-insets: -1.5;
-	-fx-border-radius: 5;
+  -fx-padding:6 0;
+  -fx-pref-width:80;
+  -fx-background-color:transparent;
+  -fx-background-radius:4;
+  -fx-background-insets:0;
+  -fx-text-fill:white;
+  -fx-font-size:13;
+  -fx-font-family:Roboto;
+  -fx-border-width:1.5;
+  -fx-border-color:-nodeflow-color-palette-2;
+  -fx-border-insets:-1.5;
+  -fx-border-radius:5;
 }
 
-.settings-buttons .button:hover {
-	-fx-background-color: -nodeflow-color-palette-5;
-}
+.settings-buttons .button:hover { -fx-background-color:-nodeflow-color-palette-3; }
 
 .settings-buttons .button:default {
-	-fx-background-color: -nodeflow-color-palette-6;
-	-fx-border-color: -nodeflow-color-palette-7;
+  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-border-color:derive(-nodeflow-color-palette-4,50%);
 }
 
-.settings-buttons .button:default:hover {
-	-fx-background-color: -nodeflow-color-palette-7;
-}
+.settings-buttons .button:default:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+
+.settings-buttons .button:disable { -fx-text-fill:-nodeflow-color-palette-5; }
 
 .settings-panel {
-	-fx-orientation: HORIZONTAL;
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-padding: 0;
-	-fx-skin: 'thito.nodeflow.library.ui.SplitPaneSkin';
+  -fx-orientation:HORIZONTAL;
+  -fx-background-color:transparent;
+  -fx-padding:0;
+  -fx-skin:"thito.nodeflow.library.ui.SplitPaneSkin";
 }
 
 .settings-panel .split-pane-divider {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-padding: 0 5;
+  -fx-background-color:transparent;
+  -fx-padding:0 5;
 }
 
 .settings-navigation {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-spacing: 15;
-	-fx-padding: 0 7.5 0 0;
+  -fx-background-color:transparent;
+  -fx-spacing:15;
+  -fx-padding:0 7.5 0 0;
 }
 
 #category-view .cell {
-	-fx-background-color: -nodeflow-color-palette-2;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-size: 13;
-	-fx-font-family: Roboto;
-	-fx-padding: 10 15;
-	-fx-font-weight: bold;
+  -fx-background-color:transparent;
+  -fx-text-fill:white;
+  -fx-font-size:13;
+  -fx-font-family:Roboto;
+  -fx-padding:10 15;
+  -fx-font-weight:bold;
 }
 
-#category-view .cell .arrow {
-	-fx-background-color: -nodeflow-color-palette-8;
+#category-view .cell .arrow { -fx-background-color:-nodeflow-color-palette-6; }
+
+#category-view .cell:selected {
+  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-insets:0 5;
+  -fx-background-radius:8;
 }
 
 #content {
-	-fx-spacing: 10;
-	-fx-padding: 15 15 15 25;
-	-fx-background-color: -nodeflow-color-palette-1;
-	-fx-background-radius: 10;
+  -fx-spacing:10;
+  -fx-padding:15 15 15 25;
+  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-radius:10;
 }
 
 #search {
-	-fx-background-color: -nodeflow-color-palette-1;
-	-fx-background-radius: 10;
-	-fx-padding: 5 15;
-	-fx-pref-height: 35;
-	-fx-font-family: Roboto;
-	-fx-font-size: 13;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-highlight-fill: -nodeflow-color-palette-6;
+  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-radius:10;
+  -fx-padding:5 15;
+  -fx-pref-height:35;
+  -fx-font-family:Roboto;
+  -fx-font-size:13;
+  -fx-text-fill:white;
+  -fx-highlight-fill:-nodeflow-color-palette-4;
 }
 
 #category-view {
-	-fx-background-color: -nodeflow-color-palette-1;
-	-fx-background-radius: 10;
-	-fx-background-insets: 0;
-	-fx-padding: 5 0;
+  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-radius:10;
+  -fx-background-insets:0;
+  -fx-padding:5 0;
 }
 
 .settings-content {
-	-fx-spacing: 15;
-	-fx-padding: 0 0 0 7.5;
+  -fx-spacing:15;
+  -fx-padding:0 0 0 7.5;
 }
 
 #path {
-	-fx-background-color: -nodeflow-color-palette-1;
-	-fx-background-radius: 10;
-	-fx-padding: 5 15;
-	-fx-pref-height: 35;
+  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-radius:10;
+  -fx-padding:5 15;
+  -fx-pref-height:35;
 }

@@ -1,48 +1,45 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
 .vertical-container {
-	-fx-alignment: center;
-	-fx-padding: 25;
+  -fx-alignment:center;
+  -fx-padding:25;
 }
 
 .container {
-	-fx-alignment: center;
-	-fx-spacing: 50;
-	-fx-padding: 25;
+  -fx-alignment:center;
+  -fx-spacing:50;
+  -fx-padding:25;
 }
 
-.danger-icon {
-	-fx-image: url('rsrc:Themes\/Dark\/Icons\/Danger.png');
-}
+.danger-icon { -fx-image:url('rsrc:Themes/Dark/Icons/Danger.png'); }
 
-.info {
-	-fx-spacing: 15;
-}
+.info { -fx-spacing:15; }
 
 #title {
-	-fx-font-family: Roboto;
-	-fx-font-weight: bold;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-size: 20;
+  -fx-font-family:Roboto;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+  -fx-font-size:20;
 }
 
 #description {
-	-fx-font-family: Roboto;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-size: 13;
-	-fx-wrap-text: true;
+  -fx-font-family:Roboto;
+  -fx-text-fill:white;
+  -fx-font-size:13;
+  -fx-wrap-text:true;
 }
 
-.buttons {
-	-fx-spacing: 10;
-}
+.buttons { -fx-spacing:10; }
 
 .buttons .button {
-	-fx-padding: 10 20;
-	-fx-font-family: Roboto;
-	-fx-text-size: 15;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-background-color: -nodeflow-color-palette-15;
+  -fx-padding:10 20;
+  -fx-font-family:Roboto;
+  -fx-text-size:15;
+  -fx-text-fill:white;
+  -fx-background-color:-nodeflow-color-palette-16;
 }
 
-.buttons .button:hover {
-	-fx-background-color: -nodeflow-color-palette-13;
-}
+.buttons .button:hover { -fx-background-color:-nodeflow-color-palette-17; }
+
+.buttons .button:pressed { -fx-background-color:-nodeflow-color-palette-7; }

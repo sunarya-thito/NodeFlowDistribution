@@ -1,118 +1,134 @@
-.settings-item {
-	-fx-min-height: 24;
-}
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
+.settings-item { -fx-min-height:24; }
 
 #name {
-	-fx-font-family: Roboto;
-	-fx-text-fill: -nodeflow-color-palette-3;
-	-fx-font-weight: bold;
-	-fx-font-size: 12;
+  -fx-font-family:Roboto;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+  -fx-font-size:12;
 }
 
 #item {
-	-fx-pref-width: 250;
-	-fx-pref-height: 30;
-	-fx-alignment: center_right;
+  -fx-pref-width:250;
+  -fx-pref-height:30;
+  -fx-alignment:center_right;
 }
 
-#item>* {
-	-fx-max-height: Infinity;
-}
+#item>* { -fx-max-height:Infinity; }
 
-#item .check-box {
-	-fx-border-pane-alignment: center_right;
-}
+#item .check-box { -fx-border-pane-alignment:center_right; }
 
-.spinner, .combo-box {
-	-fx-max-width: Infinity;
-}
+.spinner,
+.combo-box { -fx-max-width:Infinity; }
 
-#item .settings-file {
-	-fx-fill-height: true;
-}
+#item .settings-file { -fx-fill-height:true; }
 
 #item .button {
-	-fx-max-height: Infinity;
-	-fx-max-width: Infinity;
-	-fx-background-color: -nodeflow-color-palette-6;
-	-fx-background-radius: 5;
-	-fx-background-insets: 0;
-	-fx-font-family: Roboto;
-	-fx-font-size: 13;
-	-fx-text-fill: -nodeflow-color-palette-20;
+  -fx-max-height:Infinity;
+  -fx-max-width:Infinity;
+  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-radius:5;
+  -fx-background-insets:0;
+  -fx-font-family:Roboto;
+  -fx-font-size:13;
+  -fx-text-fill:-nodeflow-color-palette-12;
 }
 
-#item .button:hover {
-	-fx-background-color: -nodeflow-color-palette-7;
-}
+#item .button:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
 
 #item .text-field {
-	-fx-background-color: -nodeflow-color-palette-0;
-	-fx-background-radius: 5;
-	-fx-background-insets: 0;
-	-fx-text-fill: -nodeflow-color-palette-24;
-	-fx-font-family: Roboto;
-	-fx-padding: 5 15;
-	-fx-max-height: Infinity;
-	-fx-max-width: Infinity;
-	-fx-highlight-fill: -nodeflow-color-palette-6;
+  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-radius:5;
+  -fx-background-insets:0;
+  -fx-text-fill:-nodeflow-color-palette-24;
+  -fx-font-family:Roboto;
+  -fx-padding:5 15;
+  -fx-max-height:Infinity;
+  -fx-max-width:Infinity;
+  -fx-highlight-fill:-nodeflow-color-palette-4;
 }
 
-#item .spinner {
-	-fx-background-color: -nodeflow-color-palette-2;
+#full-item .text-field {
+  -fx-background-color:-nodeflow-color-palette-25;
+  -fx-background-radius:5;
+  -fx-background-insets:0;
+  -fx-text-fill:-nodeflow-color-palette-24;
+  -fx-font-family:Roboto;
+  -fx-padding:5 15;
+  -fx-max-height:Infinity;
+  -fx-max-width:Infinity;
+  -fx-highlight-fill:-nodeflow-color-palette-4;
 }
 
-#item .spinner .text-field {
-	-fx-background-radius: 5 0 0 5;
+#item .spinner { -fx-background-color:transparent; }
+
+#item .spinner .text-field { -fx-background-radius:5 0 0 5; }
+
+#item .settings-file .button { -fx-background-radius:0 5 5 0; }
+
+#item .settings-file .text-field { -fx-background-radius:5 0 0 5; }
+
+#item .settings-file .text-field:invalid { -fx-text-fill:-nodeflow-color-palette-11; }
+
+#item .spinner .decrement-arrow-button,
+#item .spinner .increment-arrow-button { -fx-background-color:-nodeflow-color-palette-4; }
+
+#item .spinner .decrement-arrow-button:hover,
+#item .spinner .increment-arrow-button:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+
+#item .spinner .increment-arrow,
+#item .spinner .decrement-arrow {
+  -fx-background-color:white;
+  -fx-effect:none;
 }
 
-#item .settings-file .button {
-	-fx-background-radius: 0 5 5 0;
-}
+#item .check-box .box { -fx-background-color:-nodeflow-color-palette-4; }
 
-#item .settings-file .text-field {
-	-fx-background-radius: 5 0 0 5;
-}
-
-#item .settings-file .text-field:invalid {
-	-fx-text-fill: -nodeflow-color-palette-25;
-}
-
-#item .spinner .decrement-arrow-button, #item .spinner .increment-arrow-button {
-	-fx-background-color: -nodeflow-color-palette-6;
-}
-
-#item .spinner .decrement-arrow-button:hover, #item .spinner .increment-arrow-button:hover {
-	-fx-background-color: -nodeflow-color-palette-7;
-}
-
-#item .spinner .increment-arrow, #item .spinner .decrement-arrow {
-	-fx-background-color: -nodeflow-color-palette-3;
-	-fx-effect: none;
-}
-
-#item .check-box .box {
-	-fx-background-color: -nodeflow-color-palette-6;
-}
+#item .check-box:selected .mark { -fx-background-color:white; }
 
 #item .combo-box .arrow-button {
-	-fx-background-color: -nodeflow-color-palette-6;
-	-fx-background-insets: 0;
-	-fx-background-radius: 0 5 5 0;
+  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-insets:0;
+  -fx-background-radius:0 5 5 0;
 }
 
 #item .combo-box .arrow-button .arrow {
-	-fx-background-color: -nodeflow-color-palette-3;
-	-fx-effect: none;
+  -fx-background-color:white;
+  -fx-effect:none;
 }
 
 #item .combo-box {
-	-fx-background-insets: 0;
-	-fx-background-color: -nodeflow-color-palette-2;
+  -fx-background-insets:0;
+  -fx-background-color:transparent;
 }
 
 #item .combo-box>.cell {
-	-fx-background-color: -nodeflow-color-palette-0;
-	-fx-background-radius: 5 0 0 5;
-	-fx-text-fill: -nodeflow-color-palette-24;
+  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-radius:5 0 0 5;
+  -fx-text-fill:-nodeflow-color-palette-24;
 }
+
+#full-item .custom-color-dialog { -fx-background-color:transparent; }
+
+#full-item .customcolor-controls-background { -fx-background-color:-nodeflow-color-palette-0; }
+
+#full-item .custom-color-dialog .label { -fx-text-fill:-nodeflow-color-palette-24; }
+
+#full-item .custom-color-dialog .left-pill,
+#full-item .custom-color-dialog .center-pill,
+#full-item .custom-color-dialog .right-pill {
+  -fx-background-color:-nodeflow-color-palette-25;
+  -fx-font-family:Roboto;
+  -fx-font-weight:bold;
+  -fx-text-fill:white;
+}
+
+#full-item .custom-color-dialog .left-pill:selected,
+#full-item .custom-color-dialog .center-pill:selected,
+#full-item .custom-color-dialog .right-pill:selected { -fx-background-color:-nodeflow-color-palette-4; }
+
+#full-item .slider .track { -fx-background-color:-nodeflow-color-palette-25; }
+
+#full-item .slider .thumb { -fx-background-color:-nodeflow-color-palette-4; }

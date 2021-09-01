@@ -1,8 +1,11 @@
+/*
+ * THIS FILE IS GENERATED - DO NOT EDIT
+ */
+#scroller:vertical #content-list { -fx-padding:0 10 0 0; }
+
 #content-list {
-	-fx-spacing: 10;
-	-fx-padding: 0 0 0 0;
+  -fx-spacing:10;
+  -fx-padding:0 0 0 0;
 }
 
-#scroller {
-	-fx-overlay-scroll-bars: false;
-}
+#scroller { -fx-overlay-scroll-bars:false; }
