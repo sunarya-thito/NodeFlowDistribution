@@ -5,11 +5,11 @@
   -fx-padding:18 24;
   -fx-border-width:0 0 1.5 0;
   -fx-border-insets:0 30;
-  -fx-border-color:-nodeflow-color-palette-3;
+  -fx-border-color:-nodeflow-color-palette-17;
   -fx-fill-height:true;
 }
 
-.search-result-item:hover { -fx-background-color:-nodeflow-color-palette-15; }
+.search-result-item:hover { -fx-background-color:-nodeflow-color-palette-4; }
 
 SearchResultSkin:last .search-result-item { -fx-border-width:0; }
 
@@ -32,7 +32,7 @@ SearchResultSkin:last .search-result-item { -fx-border-width:0; }
 }
 
 #search-result-source {
-  -fx-text-fill:-nodeflow-color-palette-5;
+  -fx-text-fill:-nodeflow-color-palette-10;
   -fx-font-family:Roboto;
   -fx-font-size:12;
 }

@@ -37,9 +37,9 @@
   -fx-font-family:Roboto;
   -fx-text-size:15;
   -fx-text-fill:white;
-  -fx-background-color:-nodeflow-color-palette-16;
+  -fx-background-color:-nodeflow-color-palette-19;
 }
 
-.buttons .button:hover { -fx-background-color:-nodeflow-color-palette-17; }
+.buttons .button:hover { -fx-background-color:-nodeflow-color-palette-20; }
 
-.buttons .button:pressed { -fx-background-color:-nodeflow-color-palette-7; }
+.buttons .button:pressed { -fx-background-color:-nodeflow-color-palette-21; }

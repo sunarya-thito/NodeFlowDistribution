@@ -2,7 +2,7 @@
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
 .search-bar {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-alignment:center;
   -fx-padding:0 15 0 15;
@@ -54,13 +54,13 @@
 }
 
 #workspace-count {
-  -fx-text-fill:-nodeflow-color-palette-5;
+  -fx-text-fill:-nodeflow-color-palette-10;
   -fx-font-size:17;
   -fx-font-family:Roboto;
 }
 
 .view-buttons {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-alignment:center;
   -fx-fill-height:true;
@@ -73,7 +73,7 @@
 }
 
 .view-toggle:selected {
-  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-background-color:-nodeflow-color-palette-15;
   -fx-background-radius:5;
   -fx-max-height:Infinity;
 }
@@ -83,7 +83,7 @@
   -fx-pref-height:30;
   -fx-min-width:30;
   -fx-min-height:30;
-  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-background-color:-nodeflow-color-palette-15;
   -fx-graphic:url('rsrc:/Themes/Dark/Icons/AddButton.png');
 }
 

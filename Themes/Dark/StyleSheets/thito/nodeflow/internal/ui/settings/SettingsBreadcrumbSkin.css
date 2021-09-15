@@ -5,7 +5,7 @@
   -fx-content-display:right;
   -fx-graphic:url('rsrc:Themes/Dark/Icons/BreadcrumbSeparator.png');
   -fx-graphic-text-gap:8;
-  -fx-text-fill:-nodeflow-color-palette-12;
+  -fx-text-fill:-nodeflow-color-palette-24;
   -fx-font-family:Roboto;
   -fx-padding:2 4;
 }

@@ -16,7 +16,7 @@
 .scroll-bar { -fx-background-color:transparent; }
 
 .scroll-bar .thumb {
-  -fx-background-color:-nodeflow-color-palette-7;
+  -fx-background-color:-nodeflow-color-palette-21;
   -fx-background-radius:6;
 }
 
@@ -50,38 +50,38 @@ ResourceExplorerView .directory { -fx-graphic:url('rsrc:Themes/Dark/Icons/Folder
 }
 
 .context-menu .menu-item:hover,
-.context-menu .menu:showing { -fx-background-color:-nodeflow-color-palette-3; }
+.context-menu .menu:showing { -fx-background-color:-nodeflow-color-palette-17; }
 
 .context-menu .menu-item .label {
-  -fx-text-fill:-nodeflow-color-palette-13;
+  -fx-text-fill:-nodeflow-color-palette-5;
   -fx-font-size:13;
 }
 
-.context-menu .menu-item .arrow { -fx-background-color:-nodeflow-color-palette-13; }
+.context-menu .menu-item .arrow { -fx-background-color:-nodeflow-color-palette-5; }
 
 .context-menu .separator { -fx-padding:0 10; }
 
-.context-menu .separator .line { -fx-box-border:-nodeflow-color-palette-14; }
+.context-menu .separator .line { -fx-box-border:-nodeflow-color-palette-22; }
 
 .context-menu {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-padding:5 0;
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-16,15,0,0,2);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-19,15,0,0,2);
 }
 
 .combo-box-popup .list-cell {
   -fx-background-color:transparent;
   -fx-padding:6 25;
-  -fx-text-fill:-nodeflow-color-palette-13;
+  -fx-text-fill:-nodeflow-color-palette-5;
   -fx-font-size:13;
 }
 
-.combo-box-popup .list-cell:hover { -fx-background-color:-nodeflow-color-palette-17; }
+.combo-box-popup .list-cell:hover { -fx-background-color:-nodeflow-color-palette-20; }
 
 .combo-box-popup .list-view {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-padding:5 0;
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-16,15,0,0,2);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-19,15,0,0,2);
 }

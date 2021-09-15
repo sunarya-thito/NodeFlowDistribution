@@ -12,7 +12,7 @@
 DashboardSkin {
   -fx-background-color:transparent;
   -fx-padding:20;
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-8,20,0,0,0);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-12,20,0,0,0);
   -fx-pref-height:600;
   -fx-pref-width:800;
   -fx-min-height:400;
@@ -29,7 +29,7 @@ DashboardSkin:maximized {
 .logo-version {
   -fx-font-family:"AXIS Extra Bold";
   -fx-font-size:35px;
-  -fx-fill:-nodeflow-color-palette-21;
+  -fx-fill:-nodeflow-color-palette-13;
   -fx-translate-y:5;
 }
 
@@ -39,7 +39,7 @@ DashboardSkin:maximized {
   -fx-spacing:10;
 }
 
-#content { -fx-background-color:-nodeflow-color-palette-0; }
+#content { -fx-background-color:-nodeflow-color-palette-3; }
 
 .nav-button {
   -fx-background-color:transparent;
@@ -53,15 +53,15 @@ DashboardSkin:maximized {
   -fx-padding:15 35;
 }
 
-.nav-button:hover { -fx-background-color:-nodeflow-color-palette-22; }
+.nav-button:hover { -fx-background-color:-nodeflow-color-palette-14; }
 
 .nav-button:selected {
-  -fx-background-color:linear-gradient(from 0% 0% to 100% 0%,transparent 0%,#ED893625 99%,-nodeflow-color-palette-10 1%);
-  -fx-text-fill:-nodeflow-color-palette-10;
+  -fx-background-color:linear-gradient(from 0% 0% to 100% 0%,transparent 0%,#ED893625 99%,-nodeflow-color-palette-15 1%);
+  -fx-text-fill:-nodeflow-color-palette-15;
 }
 
 .navigation {
-  -fx-background-color:-nodeflow-color-palette-23;
+  -fx-background-color:-nodeflow-color-palette-7;
   -fx-min-width:200;
   -fx-padding:50 0 0 0;
   -fx-fill-width:true;

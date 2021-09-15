@@ -2,14 +2,14 @@
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
 .settings-root {
-  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
   -fx-padding:5 15 15 15;
 }
 
 .settings-buttons {
   -fx-alignment:center_right;
   -fx-padding:10;
-  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-color:-nodeflow-color-palette-2;
   -fx-background-radius:10;
   -fx-spacing:7;
 }
@@ -24,21 +24,21 @@
   -fx-font-size:13;
   -fx-font-family:Roboto;
   -fx-border-width:1.5;
-  -fx-border-color:-nodeflow-color-palette-2;
+  -fx-border-color:-nodeflow-color-palette-16;
   -fx-border-insets:-1.5;
   -fx-border-radius:5;
 }
 
-.settings-buttons .button:hover { -fx-background-color:-nodeflow-color-palette-3; }
+.settings-buttons .button:hover { -fx-background-color:-nodeflow-color-palette-17; }
 
 .settings-buttons .button:default {
-  -fx-background-color:-nodeflow-color-palette-4;
-  -fx-border-color:derive(-nodeflow-color-palette-4,50%);
+  -fx-background-color:-nodeflow-color-palette-18;
+  -fx-border-color:derive(-nodeflow-color-palette-18,50%);
 }
 
-.settings-buttons .button:default:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+.settings-buttons .button:default:hover { -fx-background-color:derive(-nodeflow-color-palette-18,50%); }
 
-.settings-buttons .button:disable { -fx-text-fill:-nodeflow-color-palette-5; }
+.settings-buttons .button:disable { -fx-text-fill:-nodeflow-color-palette-10; }
 
 .settings-panel {
   -fx-orientation:HORIZONTAL;
@@ -67,10 +67,10 @@
   -fx-font-weight:bold;
 }
 
-#category-view .cell .arrow { -fx-background-color:-nodeflow-color-palette-6; }
+#category-view .cell .arrow { -fx-background-color:-nodeflow-color-palette-1; }
 
 #category-view .cell:selected {
-  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-color:-nodeflow-color-palette-18;
   -fx-background-insets:0 5;
   -fx-background-radius:8;
 }
@@ -78,23 +78,23 @@
 #content {
   -fx-spacing:10;
   -fx-padding:15 15 15 25;
-  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-color:-nodeflow-color-palette-2;
   -fx-background-radius:10;
 }
 
 #search {
-  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-color:-nodeflow-color-palette-2;
   -fx-background-radius:10;
   -fx-padding:5 15;
   -fx-pref-height:35;
   -fx-font-family:Roboto;
   -fx-font-size:13;
   -fx-text-fill:white;
-  -fx-highlight-fill:-nodeflow-color-palette-4;
+  -fx-highlight-fill:-nodeflow-color-palette-18;
 }
 
 #category-view {
-  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-color:-nodeflow-color-palette-2;
   -fx-background-radius:10;
   -fx-background-insets:0;
   -fx-padding:5 0;
@@ -106,7 +106,7 @@
 }
 
 #path {
-  -fx-background-color:-nodeflow-color-palette-1;
+  -fx-background-color:-nodeflow-color-palette-2;
   -fx-background-radius:10;
   -fx-padding:5 15;
   -fx-pref-height:35;

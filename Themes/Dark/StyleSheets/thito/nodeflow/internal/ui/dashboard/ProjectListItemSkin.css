@@ -2,7 +2,7 @@
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
 .project-list-item-root {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-padding:10 20;
 }
@@ -18,7 +18,7 @@
 }
 
 #description {
-  -fx-text-fill:-nodeflow-color-palette-6;
+  -fx-text-fill:-nodeflow-color-palette-1;
   -fx-font-family:Roboto;
   -fx-font-size:14;
 }
@@ -31,7 +31,7 @@
 
 .project-buttons {
   -fx-fill-height:true;
-  -fx-background-color:-nodeflow-color-palette-19;
+  -fx-background-color:-nodeflow-color-palette-28;
   -fx-background-radius:5;
 }
 
@@ -41,14 +41,14 @@
   -fx-padding:5 15;
 }
 
-.project-buttons .button:hover { -fx-background-color:-nodeflow-color-palette-2; }
+.project-buttons .button:hover { -fx-background-color:-nodeflow-color-palette-16; }
 
 #launch-button {
   -fx-graphic:url('rsrc:Themes/Dark/Icons/PlayButton2.png');
   -fx-background-radius:5 0 0 5;
 }
 
-#launch-button:hover { -fx-background-color:-nodeflow-color-palette-20; }
+#launch-button:hover { -fx-background-color:-nodeflow-color-palette-29; }
 
 #options-button {
   -fx-graphic:url('rsrc:Themes/Dark/Icons/SettingsButton.png');

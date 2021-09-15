@@ -1,10 +1,10 @@
 /*
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
-.standard-window { -fx-background-color:-nodeflow-color-palette-1; }
+.standard-window { -fx-background-color:-nodeflow-color-palette-2; }
 
 .standard-window-header {
-  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
   -fx-min-height:30;
   -fx-max-height:30;
   -fx-pref-height:30;
@@ -13,14 +13,14 @@
 #caption {}
 
 .shadow-background {
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-7,10,0,0,0);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-21,10,0,0,0);
   -fx-padding:10;
 }
 
 DialogWindowSkin {
   -fx-background-color:transparent;
   -fx-padding:20;
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-8,20,0,0,0);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-12,20,0,0,0);
 }
 
 DialogWindowSkin:maximized {
@@ -47,7 +47,7 @@ DialogWindowSkin:maximized {
   -fx-max-width:Infinity;
 }
 
-.control-button:hover { -fx-background-color:-nodeflow-color-palette-9; }
+.control-button:hover { -fx-background-color:-nodeflow-color-palette-27; }
 
 #close-button { -fx-graphic:url('rsrc:Themes/Dark/Icons/CloseButton2.png'); }
 
@@ -56,7 +56,7 @@ DialogWindowSkin:maximized {
 #minimize-button { -fx-graphic:url('rsrc:Themes/Dark/Icons/MinimizeButton.png'); }
 
 #close-button:hover {
-  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-background-color:-nodeflow-color-palette-15;
   -fx-graphic:url('rsrc:Themes/Dark/Icons/CloseButton3.png');
 }
 
@@ -99,28 +99,28 @@ FormPane {
   -fx-border-width:1.5;
   -fx-border-insets:-1.5;
   -fx-border-radius:5;
-  -fx-border-color:-nodeflow-color-palette-2;
+  -fx-border-color:-nodeflow-color-palette-16;
   -fx-font-family:Roboto;
   -fx-font-size:14;
-  -fx-text-fill:-nodeflow-color-palette-12;
+  -fx-text-fill:-nodeflow-color-palette-24;
 }
 
-.buttons .button:hover { -fx-background-color:-nodeflow-color-palette-3; }
+.buttons .button:hover { -fx-background-color:-nodeflow-color-palette-17; }
 
 .buttons .button:default {
-  -fx-background-color:-nodeflow-color-palette-4;
-  -fx-border-color:derive(-nodeflow-color-palette-4,50%);
+  -fx-background-color:-nodeflow-color-palette-18;
+  -fx-border-color:derive(-nodeflow-color-palette-18,50%);
 }
 
-.buttons .button:default:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+.buttons .button:default:hover { -fx-background-color:derive(-nodeflow-color-palette-18,50%); }
 
 .form-field-container .text-field,
 .form-field-container .text-area {
-  -fx-background-color:-nodeflow-color-palette-0;
-  -fx-control-inner-background:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
+  -fx-control-inner-background:-nodeflow-color-palette-3;
   -fx-faint-focus-color:transparent;
   -fx-focus-color:transparent;
-  -fx-highlight-fill:-nodeflow-color-palette-4;
+  -fx-highlight-fill:-nodeflow-color-palette-18;
   -fx-text-fill:white;
   -fx-font-size:13;
   -fx-font-family:Roboto;

@@ -2,7 +2,7 @@
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
 .project-box-root {
-  -fx-background-color:-nodeflow-color-palette-15;
+  -fx-background-color:-nodeflow-color-palette-4;
   -fx-background-radius:5;
   -fx-padding:10;
   -fx-pref-width:160;
@@ -19,7 +19,7 @@
 
 #project-icon-overlay {
   -fx-opacity:0;
-  -fx-background-color:-nodeflow-color-palette-16;
+  -fx-background-color:-nodeflow-color-palette-19;
   -fx-background-radius:5;
 }
 
@@ -49,13 +49,13 @@
 
 #description {
   -fx-font-family:Roboto;
-  -fx-text-fill:-nodeflow-color-palette-6;
+  -fx-text-fill:-nodeflow-color-palette-1;
   -fx-font-size:14;
 }
 
 #size {
   -fx-font-family:Roboto;
-  -fx-text-fill:-nodeflow-color-palette-2;
+  -fx-text-fill:-nodeflow-color-palette-16;
   -fx-font-size:13;
 }
 

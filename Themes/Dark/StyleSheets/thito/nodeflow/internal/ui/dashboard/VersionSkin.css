@@ -2,7 +2,7 @@
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
 #pad {
-  -fx-background-color:-nodeflow-color-palette-26;
+  -fx-background-color:-nodeflow-color-palette-0;
   -fx-background-radius:10;
   -fx-max-height:3;
 }
@@ -23,7 +23,7 @@
 }
 
 #changelog-content {
-  -fx-text-fill:-nodeflow-color-palette-6;
+  -fx-text-fill:-nodeflow-color-palette-1;
   -fx-font-family:"Roboto";
   -fx-font-size:15;
   -fx-wrap-text:true;

@@ -13,6 +13,6 @@
   -fx-font-size:13;
 }
 
-#file-explorer .cell .arrow { -fx-background-color:-nodeflow-color-palette-18; }
+#file-explorer .cell .arrow { -fx-background-color:-nodeflow-color-palette-23; }
 
-#file-explorer .cell:selected { -fx-background-color:-nodeflow-color-palette-15; }
+#file-explorer .cell:selected { -fx-background-color:-nodeflow-color-palette-4; }

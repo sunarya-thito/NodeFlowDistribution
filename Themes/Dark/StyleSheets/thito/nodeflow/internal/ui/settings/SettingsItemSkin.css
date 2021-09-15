@@ -28,38 +28,38 @@
 #item .button {
   -fx-max-height:Infinity;
   -fx-max-width:Infinity;
-  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-color:-nodeflow-color-palette-18;
   -fx-background-radius:5;
   -fx-background-insets:0;
   -fx-font-family:Roboto;
   -fx-font-size:13;
-  -fx-text-fill:-nodeflow-color-palette-12;
+  -fx-text-fill:-nodeflow-color-palette-24;
 }
 
-#item .button:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+#item .button:hover { -fx-background-color:derive(-nodeflow-color-palette-18,50%); }
 
 #item .text-field {
-  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
   -fx-background-radius:5;
   -fx-background-insets:0;
-  -fx-text-fill:-nodeflow-color-palette-24;
+  -fx-text-fill:-nodeflow-color-palette-25;
   -fx-font-family:Roboto;
   -fx-padding:5 15;
   -fx-max-height:Infinity;
   -fx-max-width:Infinity;
-  -fx-highlight-fill:-nodeflow-color-palette-4;
+  -fx-highlight-fill:-nodeflow-color-palette-18;
 }
 
 #full-item .text-field {
-  -fx-background-color:-nodeflow-color-palette-25;
+  -fx-background-color:-nodeflow-color-palette-26;
   -fx-background-radius:5;
   -fx-background-insets:0;
-  -fx-text-fill:-nodeflow-color-palette-24;
+  -fx-text-fill:-nodeflow-color-palette-25;
   -fx-font-family:Roboto;
   -fx-padding:5 15;
   -fx-max-height:Infinity;
   -fx-max-width:Infinity;
-  -fx-highlight-fill:-nodeflow-color-palette-4;
+  -fx-highlight-fill:-nodeflow-color-palette-18;
 }
 
 #item .spinner { -fx-background-color:transparent; }
@@ -73,10 +73,10 @@
 #item .settings-file .text-field:invalid { -fx-text-fill:-nodeflow-color-palette-11; }
 
 #item .spinner .decrement-arrow-button,
-#item .spinner .increment-arrow-button { -fx-background-color:-nodeflow-color-palette-4; }
+#item .spinner .increment-arrow-button { -fx-background-color:-nodeflow-color-palette-18; }
 
 #item .spinner .decrement-arrow-button:hover,
-#item .spinner .increment-arrow-button:hover { -fx-background-color:derive(-nodeflow-color-palette-4,50%); }
+#item .spinner .increment-arrow-button:hover { -fx-background-color:derive(-nodeflow-color-palette-18,50%); }
 
 #item .spinner .increment-arrow,
 #item .spinner .decrement-arrow {
@@ -84,12 +84,12 @@
   -fx-effect:none;
 }
 
-#item .check-box .box { -fx-background-color:-nodeflow-color-palette-4; }
+#item .check-box .box { -fx-background-color:-nodeflow-color-palette-18; }
 
 #item .check-box:selected .mark { -fx-background-color:white; }
 
 #item .combo-box .arrow-button {
-  -fx-background-color:-nodeflow-color-palette-4;
+  -fx-background-color:-nodeflow-color-palette-18;
   -fx-background-insets:0;
   -fx-background-radius:0 5 5 0;
 }
@@ -105,21 +105,21 @@
 }
 
 #item .combo-box>.cell {
-  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
   -fx-background-radius:5 0 0 5;
-  -fx-text-fill:-nodeflow-color-palette-24;
+  -fx-text-fill:-nodeflow-color-palette-25;
 }
 
 #full-item .custom-color-dialog { -fx-background-color:transparent; }
 
-#full-item .customcolor-controls-background { -fx-background-color:-nodeflow-color-palette-0; }
+#full-item .customcolor-controls-background { -fx-background-color:-nodeflow-color-palette-3; }
 
-#full-item .custom-color-dialog .label { -fx-text-fill:-nodeflow-color-palette-24; }
+#full-item .custom-color-dialog .label { -fx-text-fill:-nodeflow-color-palette-25; }
 
 #full-item .custom-color-dialog .left-pill,
 #full-item .custom-color-dialog .center-pill,
 #full-item .custom-color-dialog .right-pill {
-  -fx-background-color:-nodeflow-color-palette-25;
+  -fx-background-color:-nodeflow-color-palette-26;
   -fx-font-family:Roboto;
   -fx-font-weight:bold;
   -fx-text-fill:white;
@@ -127,8 +127,8 @@
 
 #full-item .custom-color-dialog .left-pill:selected,
 #full-item .custom-color-dialog .center-pill:selected,
-#full-item .custom-color-dialog .right-pill:selected { -fx-background-color:-nodeflow-color-palette-4; }
+#full-item .custom-color-dialog .right-pill:selected { -fx-background-color:-nodeflow-color-palette-18; }
 
-#full-item .slider .track { -fx-background-color:-nodeflow-color-palette-25; }
+#full-item .slider .track { -fx-background-color:-nodeflow-color-palette-26; }
 
-#full-item .slider .thumb { -fx-background-color:-nodeflow-color-palette-4; }
+#full-item .slider .thumb { -fx-background-color:-nodeflow-color-palette-18; }

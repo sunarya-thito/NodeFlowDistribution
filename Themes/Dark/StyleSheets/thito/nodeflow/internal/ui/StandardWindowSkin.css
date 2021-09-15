@@ -1,10 +1,10 @@
 /*
  * THIS FILE IS GENERATED - DO NOT EDIT
  */
-.standard-window { -fx-background-color:-nodeflow-color-palette-1; }
+.standard-window { -fx-background-color:-nodeflow-color-palette-2; }
 
 .standard-window-header {
-  -fx-background-color:-nodeflow-color-palette-0;
+  -fx-background-color:-nodeflow-color-palette-3;
   -fx-min-height:30;
   -fx-max-height:30;
   -fx-pref-height:30;
@@ -13,14 +13,14 @@
 #caption {}
 
 .shadow-background {
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-7,10,0,0,0);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-21,10,0,0,0);
   -fx-padding:10;
 }
 
 StandardWindowSkin {
   -fx-background-color:transparent;
   -fx-padding:20;
-  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-8,20,0,0,0);
+  -fx-effect:dropshadow(gaussian,-nodeflow-color-palette-12,20,0,0,0);
   -fx-pref-height:600;
   -fx-pref-width:800;
   -fx-min-width:200;
@@ -52,7 +52,7 @@ StandardWindowSkin:maximized {
   -fx-max-width:Infinity;
 }
 
-.control-button:hover { -fx-background-color:-nodeflow-color-palette-9; }
+.control-button:hover { -fx-background-color:-nodeflow-color-palette-27; }
 
 #close-button { -fx-graphic:url('rsrc:Themes/Dark/Icons/CloseButton2.png'); }
 
@@ -61,6 +61,6 @@ StandardWindowSkin:maximized {
 #minimize-button { -fx-graphic:url('rsrc:Themes/Dark/Icons/MinimizeButton.png'); }
 
 #close-button:hover {
-  -fx-background-color:-nodeflow-color-palette-10;
+  -fx-background-color:-nodeflow-color-palette-15;
   -fx-graphic:url('rsrc:Themes/Dark/Icons/CloseButton3.png');
 }
