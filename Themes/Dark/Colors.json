@@ -1,131 +1,5 @@
 [
   {
-    "name": "-nodeflow-color-palette-10",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 127
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-0",
-    "value": {
-      "red": 156,
-      "green": 255,
-      "blue": 145,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-28",
-    "value": {
-      "red": 67,
-      "green": 75,
-      "blue": 92,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-6",
-    "value": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "alpha": 51
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-8",
-    "value": {
-      "red": 237,
-      "green": 137,
-      "blue": 54,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-11",
-    "value": {
-      "red": 255,
-      "green": 100,
-      "blue": 100,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-1",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 153
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-17",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 25
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-19",
-    "value": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "alpha": 76
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-24",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 178
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-18",
-    "value": {
-      "red": 79,
-      "green": 86,
-      "blue": 238,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-14",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 15
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-4",
-    "value": {
-      "red": 49,
-      "green": 57,
-      "blue": 73,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-13",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 204
-    }
-  },
-  {
     "name": "-nodeflow-color-palette-21",
     "value": {
       "red": 0,
@@ -135,30 +9,12 @@
     }
   },
   {
-    "name": "-nodeflow-color-palette-2",
-    "value": {
-      "red": 14,
-      "green": 18,
-      "blue": 26,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-23",
-    "value": {
-      "red": 124,
-      "green": 137,
-      "blue": 155,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-27",
+    "name": "-nodeflow-color-palette-11",
     "value": {
       "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 20
+      "green": 100,
+      "blue": 100,
+      "alpha": 255
     }
   },
   {
@@ -180,12 +36,12 @@
     }
   },
   {
-    "name": "-nodeflow-color-palette-9",
+    "name": "-nodeflow-color-palette-24",
     "value": {
-      "red": 38,
-      "green": 44,
-      "blue": 59,
-      "alpha": 255
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 178
     }
   },
   {
@@ -198,38 +54,11 @@
     }
   },
   {
-    "name": "-nodeflow-color-palette-3",
+    "name": "-nodeflow-color-palette-18",
     "value": {
-      "red": 26,
-      "green": 32,
-      "blue": 44,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-20",
-    "value": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 51
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-15",
-    "value": {
-      "red": 196,
-      "green": 75,
-      "blue": 75,
-      "alpha": 255
-    }
-  },
-  {
-    "name": "-nodeflow-color-palette-26",
-    "value": {
-      "red": 63,
-      "green": 71,
-      "blue": 87,
+      "red": 79,
+      "green": 86,
+      "blue": 238,
       "alpha": 255
     }
   },
@@ -252,6 +81,159 @@
     }
   },
   {
+    "name": "-nodeflow-color-palette-4",
+    "value": {
+      "red": 49,
+      "green": 57,
+      "blue": 73,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-23",
+    "value": {
+      "red": 124,
+      "green": 137,
+      "blue": 155,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-3",
+    "value": {
+      "red": 26,
+      "green": 32,
+      "blue": 44,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-9",
+    "value": {
+      "red": 38,
+      "green": 44,
+      "blue": 59,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-19",
+    "value": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 76
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-7",
+    "value": {
+      "red": 35,
+      "green": 42,
+      "blue": 56,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-2",
+    "value": {
+      "red": 14,
+      "green": 18,
+      "blue": 26,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-15",
+    "value": {
+      "red": 196,
+      "green": 75,
+      "blue": 75,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-6",
+    "value": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 51
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-27",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 20
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-13",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 204
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-0",
+    "value": {
+      "red": 156,
+      "green": 255,
+      "blue": 145,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-8",
+    "value": {
+      "red": 237,
+      "green": 137,
+      "blue": 54,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-10",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 127
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-1",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 153
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-28",
+    "value": {
+      "red": 67,
+      "green": 75,
+      "blue": 92,
+      "alpha": 255
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-20",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 51
+    }
+  },
+  {
     "name": "-nodeflow-color-palette-25",
     "value": {
       "red": 255,
@@ -261,11 +243,29 @@
     }
   },
   {
-    "name": "-nodeflow-color-palette-7",
+    "name": "-nodeflow-color-palette-14",
     "value": {
-      "red": 35,
-      "green": 42,
-      "blue": 56,
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 15
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-17",
+    "value": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 25
+    }
+  },
+  {
+    "name": "-nodeflow-color-palette-26",
+    "value": {
+      "red": 63,
+      "green": 71,
+      "blue": 87,
       "alpha": 255
     }
   }
