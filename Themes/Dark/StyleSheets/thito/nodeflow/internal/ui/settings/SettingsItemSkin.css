@@ -56,7 +56,7 @@
   -fx-background-insets:0;
   -fx-text-fill:-nodeflow-color-palette-25;
   -fx-font-family:Roboto;
-  -fx-padding:5 15;
+  -fx-padding:5;
   -fx-max-height:Infinity;
   -fx-max-width:Infinity;
   -fx-highlight-fill:-nodeflow-color-palette-18;

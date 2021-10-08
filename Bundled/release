@@ -1,2 +1,2 @@
 JAVA_VERSION="16.0.2"
-MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.logging java.management java.security.sasl java.naming java.transaction.xa java.sql java.sql.rowset javafx.base jdk.unsupported javafx.graphics javafx.controls thito.nodeflow"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.logging java.management java.security.sasl java.naming java.transaction.xa java.sql java.sql.rowset javafx.base jdk.unsupported javafx.graphics javafx.controls jdk.accessibility jdk.unsupported.desktop thito.nodeflow"

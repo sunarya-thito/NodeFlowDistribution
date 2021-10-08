@@ -38,7 +38,7 @@ StandardWindowSkin:maximized {
 }
 
 #window-title {
-  -fx-text-fill:white;
+  -fx-text-fill:-nodeflow-color-palette-13;
   -fx-font-family:Roboto;
   -fx-font-size:14;
 }
