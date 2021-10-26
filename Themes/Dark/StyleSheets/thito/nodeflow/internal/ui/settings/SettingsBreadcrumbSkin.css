@@ -1,15 +1,16 @@
-/*
- * THIS FILE IS GENERATED - DO NOT EDIT
- */
 #breadcrumb-label {
-  -fx-content-display:right;
-  -fx-graphic:url('rsrc:Themes/Dark/Icons/BreadcrumbSeparator.png');
-  -fx-graphic-text-gap:8;
-  -fx-text-fill:-nodeflow-color-palette-24;
-  -fx-font-family:Roboto;
-  -fx-padding:2 4;
+    -fx-content-display: right;
+    -fx-graphic: url("rsrc:Themes/Dark/Icons/BreadcrumbSeparator.png");
+    -fx-graphic-text-gap: 8;
+    -fx-text-fill: rgb(255, 255, 255, 0.7);
+    -fx-font-family: Roboto;
+    -fx-padding: 2 4;
 }
 
-.image-view { -fx-opacity:0.4; }
+.image-view {
+    -fx-opacity: 0.4;
+}
 
-SettingsBreadcrumbSkin:last .image-view { -fx-opacity:0; }
+SettingsBreadcrumbSkin:last .image-view {
+    -fx-opacity: 0;
+}
